@@ -1,0 +1,75 @@
+eaf1: Everything About F1
+
+A passion project for F1 fans! This repo explores the basics of Formula 1 and highlights what makes the sport so captivating. From essential knowledge to fascinating insights, it’s a place to dive into the world of F1 and discover why fans are hooked.
+
+-----------------------------------------------------
+FIA and F1
+
+The FIA Formula 1 World Championship started in 1950
+
+The FIA stands for the Fédération Internationale de l'Automobile. It's the governing body for world motorsport and is responsible for setting rules, regulations, and standards for various forms of racing, including Formula 1. Founded in 1904, the FIA oversees the organization, safety, and integrity of international motorsport events, and promotes responsible and sustainable mobility globally.
+
+In Formula 1, the FIA plays a crucial role in:
+
+- Setting and enforcing regulations: The FIA sets technical and sporting rules that teams and drivers must follow.
+- Ensuring safety: The FIA continuously works on improving safety for drivers, teams, and spectators through innovations and strict safety protocols.
+- Race stewardship: The FIA appoints race officials and stewards to oversee each F1 race, ensuring the rules are followed and addressing incidents during races.
+
+-----------------------------------------------------
+
+Teams
+
+In Formula 1, there are currently 10 teams competing each season. Each team fields two drivers, so there are a total of 20 drivers on the grid.
+
+The 10 teams are:
+
+Mercedes-AMG Petronas Formula One Team
+Scuderia Ferrari
+Red Bull Racing
+McLaren F1 Team
+Alpine F1 Team
+Aston Martin Aramco Cognizant Formula One Team
+Williams Racing
+Alfa Romeo F1 Team Stake
+Scuderia AlphaTauri
+Haas F1 Team
+Teams may change over time due to new entries, rebranding, or ownership changes, but the grid typically consists of 10 teams.
+
+-----------------------------------------------------
+Races and Scheudle
+
+The F1 season consists of a series of races called Grands Prix (GP), held worldwide at various circuits.
+Each race weekend includes practice sessions, qualifying, and the main race on Sunday.
+The championship is determined over these races, with points awarded to drivers and teams based on their finish position in each race.
+
+-----------------------------------------------------
+
+How does one win in F1
+
+Winning in F1 can mean winning a single race or aiming for the season-long goal of winning the Driver’s or Constructor’s Championship
+So what is all of these categories? 
+
+1. Winning a Race
+Each race (known as a Grand Prix) is an individual event where drivers aim to finish first.
+The driver who completes the designated number of laps first is the race winner.
+Points are awarded based on finishing position, with the top 10 drivers scoring points. The points distribution is as follows:
+1st place: 25 points
+2nd place: 18 points
+3rd place: 15 points
+And so on, down to 10th place, which earns 1 point.
+An additional point is awarded to the driver with the fastest lap if they finish within the top 10.
+
+2. Winning the Driver’s Championship
+The Driver's Championship is awarded to the driver who accumulates the most points over the entire season.
+Points from each race are totaled throughout the season’s races. The driver with the highest score at the end of the season becomes the World Champion.
+Consistency is crucial: winning individual races helps, but consistently finishing in high positions across races is key to winning the championship.
+
+Winning races contributes to the season total, but winning a championship requires long-term consistency and strategic excellence. A driver can win several races in a season and still lose the championship if they don’t score enough points consistently.
+
+
+3. Winning the Constructor’s Championship
+Teams, or constructors, are also in a season-long competition called the Constructor's Championship.
+Points are awarded based on the combined performance of both drivers in each team.
+The team with the highest total points by the end of the season wins the Constructor’s Championship, which is highly prestigious and valuable in terms of prize money and reputation.
+
+-------
