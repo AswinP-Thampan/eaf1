@@ -1,31 +1,11 @@
 import Image from "next/image";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
-    <div className="flex items-center font-F1R min-h-screen">
+    <div className="justify-around">
+      <NavBar />
       <div className="flex flex-col justify-around items-center font-F1R min-h-screen">
-        <div className="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-          <ul className="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0" >
-          <li>
-              <a className="md:p-4 py-2 block text-red-600 font-semibold" href="#">Home</a>
-            </li>
-            <li>
-              <a className="md:p-4 py-2 block hover:text-red-600 font-semibold" href="#">McLaren</a>
-            </li>
-            <li>
-              <a className="md:p-4 py-2 block hover:text-red-600 font-semibold" href="#">Red Bull</a>
-            </li>
-            <li>
-              <a className="md:p-4 py-2 block hover:text-red-600 font-semibold" href="#">Mercedes</a>
-            </li>
-            <li>
-              <a className="md:p-4 py-2 block hover:text-red-600 font-semibold" href="#">Ferrari</a>
-            </li>
-            <li>
-              <a className="md:p-4 py-2 block hover:text-red-600 font-semibold" href="#">Aston Martin</a>
-            </li>
-          </ul>
-        </div>
 
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center py-0 p-8  gap-16 sm:p-20 sm:py-0 font-F1R border-box">
           {/* <div className="max-w-screen-xl px-4 py-8 mx-auto  lg:py-16 lg:px-6"> */}
@@ -43,7 +23,7 @@ export default function Home() {
             <p>
               Formula 1 (F1) is the highest class of international single-seater auto racing, governed by the Fédération Internationale de l'Automobile (FIA). It involves a series of races known as Grand Prix, held across the world on specially designed circuits or closed city streets. F1 cars are engineering marvels—lightweight, aerodynamically sophisticated, and capable of reaching speeds over 200 mph (322 km/h).
             </p>
-            
+
 
             <b className="text-red-600 font-F1W text-sm">Why is F1 Popular?</b>
             <p>
@@ -59,15 +39,15 @@ export default function Home() {
               <li className="mb-2"><b>Ensuring safety:</b> The FIA continuously works on improving safety for drivers, teams, and spectators through innovations and strict safety protocols.</li>
               <li className="mb-2"><b>Race stewardship:</b> The FIA appoints race officials and stewards to oversee each F1 race, ensuring the rules are followed and addressing incidents during races.</li>
             </ol> */}
-            
 
-            
+
+
             <b className="text-red-600 font-F1W text-sm">How does one win in F1</b>
-          <p>
-          Winning in F1 can mean <b>winning a single race</b> or aiming for the season-long goal of winning the <b>Driver’s Championship</b> or <b>Constructor’s Championship.</b>
-          <p className="text-red-600 text-xs text-right pr-8">Learn More ...</p>
-          </p>
-          <p></p>
+            <p>
+              Winning in F1 can mean <b>winning a single race</b> or aiming for the season-long goal of winning the <b>Driver’s Championship</b> or <b>Constructor’s Championship.</b>
+              <p className="text-red-600 text-xs text-right pr-8">Learn More ...</p>
+            </p>
+            <p></p>
           </main>
           {/* </div> */}
 
@@ -121,7 +101,7 @@ export default function Home() {
           </a>
         </footer>
       </div>
-      <div className="bg-red-600 text-red-600 w-32 h-screen">.</div>
+      {/* <div className="bg-red-600 text-red-600 w-8 h-screen fixed -top-0 -right-0">.</div> */}
     </div>
   );
 }
