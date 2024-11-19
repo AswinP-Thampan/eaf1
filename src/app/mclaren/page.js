@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import NavBar from '../components/NavBar'
 import ImageGallery from '../components/ImageGallery'
 import Table from '../components/Table'
+import { title } from 'process';
 
 export default function Page() {
 
@@ -29,51 +30,121 @@ export default function Page() {
 
     const chasisInfo = [
         {
-            chasis: "Power Unit type",
+            title: "Power Unit type",
             info: "Mercedes-AMG M14 E Performance  "
         },
         {
-            chasis: "Monocoque",
+            title: "Monocoque",
             info: "Carbon-fibre composite, incorporating driver controls and fuel cell  "
         },
         {
-            chasis: "Safety structures",
+            title: "Safety structures",
             info: "Cockpit survival cell incorporating impact resistant construction and anti-penetration panels, front impact structure, prescribed side impact structures, integrated rear impact structure, front and rear roll structures, halo secondary roll structure, driver headrest protection and safety seat  "
         },
         {
-            chasis: "Bodywork",
+            title: "Bodywork",
             info: "Carbon-fibre composite, including engine cover, sidepods, floor, nose, front wing and rear wing with driver-operated drag reduction system"
         },
         {
-            chasis: "Front suspension",
+            title: "Front suspension",
             info: "Carbon-fibre / titanium suspension legs, pullrod operating inboard torsion bar, spring and damper system"
         },
         {
-            chasis: "Rear suspension",
+            title: "Rear suspension",
             info: "Carbon-fibre / titanium suspension legs, pullrod operating inboard torsion bar, spring and damper system"
         },
         {
-            chasis: "Weight",
+            title: "Weight",
             info: "Overall vehicle weight 798 kg (including driver, excluding fuel)  "
         },
         {
-            chasis: "Weight distribution between ",
+            title: "Weight distribution between ",
             info: "44.6% and 46.1% on front axle  "
         },
         {
-            chasis: "Electronics",
+            title: "Electronics",
             info: "McLaren Applied. Including chassis control, power unit control, data acquisition, sensors, data analysis  "
         },
         {
-            chasis: "Brake system",
+            title: "Instruments",
+            info: "McLaren Applied steering wheel display  "
+        },
+        {
+            title: "Brake system",
             info: "Six piston brake calipers with front / rear master cylinders. ‘Brake by wire’ rear brake control system. Carbon-carbon ventilated discs and pads  "
         },
         {
-            chasis: "Tyres",
+            title: "Tyres",
             info: "Pirelli P Zero F1. Now with an additional compound, the C0 – bringing our total to six compounds in the pool. Pirelli select three for each event. "
         },
+        {
+            title: "Race wheels",
+            info: "BBS standardised design 18” magnesium wheels"
+        },
+        {
+            title: "Cooling systems",
+            info: "Charge air, engine oil, gearbox oil, hydraulic oil, water, and ERS cooling systems  "
+        },
+        {
+            title: "INTERNAL COMBUSTION ENGINE",
+            info: ""
+        }, {
+            title: "Capacity",
+            info: "1.6 litres"
+        },
+        {
+            title: "Cylinders",
+            info: "Six"
+        },
+        {
+            title: "Bank angle",
+            info: "Bank angle"
+        },
+        {
+            title: "No of valves",
+            info: "24"
+        },
+        {
+            title: "Max speed",
+            info: "15,000 rpm"
+        },
+        {
+            title: "Max fuel flow rate",
+            info: "100kg/hour (above 10,500 rpm)"
+        },
+        {
+            title: "Fuel injection",
+            info: "High-pressure direct injection (max 500 bar, one injector/cylinder)  "
+        },
+        {
+            title: "Pressure charging",
+            info: "Single-stage compressor and exhaust turbine, on a common shaft  "
+        },
+        {
+            title: " ",
+            info: "Max rpm Exhaust Turbine 125,000 rpm "
+        },
+        {
+            title: "Instruments",
+            info: "McLaren Applied steering wheel display  "
+        },
+        {
+            title: "Brake system",
+            info: "Six piston brake calipers with front / rear master cylinders. ‘Brake by wire’ rear brake control system. Carbon-carbon ventilated discs and pads  "
+        },
+        {
+            title: "Tyres",
+            info: "Pirelli P Zero F1. Now with an additional compound, the C0 – bringing our total to six compounds in the pool. Pirelli select three for each event. "
+        },
+        {
+            title: "Race wheels",
+            info: "BBS standardised design 18” magnesium wheels"
+        },
+        {
+            title: "Cooling systems",
+            info: "Charge air, engine oil, gearbox oil, hydraulic oil, water, and ERS cooling systems  "
+        },
     ]
-
     const updateState = (imgArr) => {
         setImageArr(imgArr)
     }
@@ -97,7 +168,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <Table chasisInfo={chasisInfo} />
+            <Table tableName={"Chasis"} chasisInfo={chasisInfo} />
         </div>
     )
 }
