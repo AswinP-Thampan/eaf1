@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mclaren_orange: "#FF8000"
       },
       fontFamily: {
         F1R: ['F1-R' , 'sans-serif'],
