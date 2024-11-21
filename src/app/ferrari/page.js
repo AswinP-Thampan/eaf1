@@ -22,9 +22,9 @@ export default function Page() {
         // `${f1Url}/SF_2023_Front3_4_team_1024x768.jpg?v=1676372707`,
 
 
-        `/ferrari/f1.jpeg`,
-        // `/ferrari/f2.jpg`,
         `/ferrari/f3.jpg`,
+        // `/ferrari/f2.jpg`,
+        `/ferrari/f1.jpeg`,
         `/ferrari/f5.jpg`,
         // `/ferrari/f6.jpg`,
         `/ferrari/f8.jpg`,

@@ -18,6 +18,7 @@ export default function NavBar() {
     <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-example-collapse">
       <div className="flex flex-col gap-3 mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5">
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/">Home</a>
+        <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/f1car">Know More</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/mclaren">McLaren</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="#">Red Bull</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/mercedes">Mercedes</a>
