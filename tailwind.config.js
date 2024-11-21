@@ -13,6 +13,7 @@ module.exports = {
         foreground: "var(--foreground)",
         mclaren_orange: "#FF8000",
         ferrari_red: "#A6051A",
+        mercedes_green: "#00A19C"
       },
       fontFamily: {
         F1R: ['F1-R', 'sans-serif'],

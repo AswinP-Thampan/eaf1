@@ -20,9 +20,9 @@ export default function NavBar() {
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/">Home</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/mclaren">McLaren</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="#">Red Bull</a>
-        <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="#">Mercedes</a>
+        <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/mercedes">Mercedes</a>
         <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="#">Aston Martin</a>
-        <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="#">Ferrari</a>
+        <a className="md:p-4 py-2 block text-white hover:text-red-600 font-semibold" href="/ferrari">Ferrari</a>
       </div>
     </div>
   </nav>
