@@ -47,7 +47,7 @@ export default function ImageGallery(imgArr) {
                     </button>
                 </div>
                 <div className='flex justify-center  '>
-                    <img className={`h-fit rounded-3xl ${fadeClass} border-8 border-l-0 border-b-0 border-mclaren_orange`} src={imgArr.imgArr[0]} alt="Main Image" />
+                    <img className={`h-fit rounded-3xl ${fadeClass} border-8 border-l-0 border-b-0`} src={imgArr.imgArr[0]} alt="Main Image" style={{ borderColor: imgArr.color}} />
                 </div>
                 <div className="grid grid-cols-1 gap-2">
                     {imgArr.imgArr.slice(1).map((item, index) =>

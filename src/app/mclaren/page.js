@@ -155,8 +155,8 @@ export default function Page() {
                 <NavBar />
             </div>
             <div className='flex flex-col justify-center items-center mt-8'>
-                <b className=" text-4xl text-mclaren_orange font-F1W">McLaren</b>
-                <ImageGallery imgArr={ImageArr} handleState={updateState} />
+                <b className=" text-4xl text-ferrari_red font-F1W">McLaren</b>
+                <ImageGallery imgArr={ImageArr} handleState={updateState} color={'#FF8000'}/>
             </div>
             <div className='font-F1R flex justify-center pb-8'>
                 <div className='w-10/12'>
@@ -168,7 +168,7 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <Table tableName={"Chasis"} chasisInfo={chasisInfo} />
+            <Table tableName={"Chasis"} chasisInfo={chasisInfo} color={'#FF8000'}/>
         </div>
     )
 }

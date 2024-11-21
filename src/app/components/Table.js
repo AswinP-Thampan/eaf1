@@ -7,7 +7,7 @@ export default function Table(props) {
         <div className='flex justify-center pb-8 font-F1R text-lg md:text-xs'>
             <div class="relative w-10/12 overflow-x-auto sm:rounded-xl border border-gray-300">
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                    <thead class="text-lg text-mclaren_orange uppercase ">
+                    <thead class="text-lg uppercase " style={{ color: props.color }}>
                         <tr>
                             <th scope="col" class="px-6 py-3 bg-gray-50 ">
                                 {props.tableName}
@@ -18,7 +18,7 @@ export default function Table(props) {
                         {props.chasisInfo.map((value) => {
                             if (value.info == '') {
                                 return (
-                                    <tr class="text-lg text-mclaren_orange uppercase ">
+                                    <tr class="text-lg uppercase " style={{ color: props.color }}>
                                         <th scope="col" class="px-6 py-3 bg-gray-50 ">
                                         {value.title}
                                         </th>

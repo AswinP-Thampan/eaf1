@@ -7,7 +7,7 @@ export default function Home() {
       <NavBar />
       <div className="flex flex-col justify-around items-center font-F1R min-h-screen">
 
-        <div className="grid  items-center justify-items-center py-0 p-8  gap-16 sm:p-20 sm:py-0 font-F1R border-box">
+        <div className="grid items-center justify-items-center py-0 p-8  gap-16 sm:p-20 sm:py-0 font-F1R border-box">
           {/* <div className="max-w-screen-xl px-4 py-8 mx-auto  lg:py-16 lg:px-6"> */}
           <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
             <div className="flex flex-row text-4xl">

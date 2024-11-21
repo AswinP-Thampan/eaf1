@@ -11,11 +11,12 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        mclaren_orange: "#FF8000"
+        mclaren_orange: "#FF8000",
+        ferrari_red: "#A6051A",
       },
       fontFamily: {
-        F1R: ['F1-R' , 'sans-serif'],
-        F1W: ['F1-W' , 'sans-serif']
+        F1R: ['F1-R', 'sans-serif'],
+        F1W: ['F1-W', 'sans-serif']
       }
     },
   },
