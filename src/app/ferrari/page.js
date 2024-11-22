@@ -174,7 +174,7 @@ export default function Page() {
             <div className='font-F1R flex justify-center pb-8'>
                 <div className='w-10/12'>
                     <div>
-                        The Ferrari SF23 is a Formula One race car developed and constructed by Scuderia Ferrari to compete in the 2023 Formula One World Championship. It is driven by Charles Leclerc and Carlos Sainz Jr. Designed to build on Ferrari's competitive edge, the SF23 incorporates advanced aerodynamics and a hybrid power unit, aiming to challenge for victories throughout the season.
+                        The Ferrari SF23 is a Formula One race car developed and constructed by Scuderia Ferrari to compete in the 2023 Formula One World Championship. It is driven by Charles Leclerc and Carlos Sainz Jr. Designed to build on Ferrari&apos;s competitive edge, the SF23 incorporates advanced aerodynamics and a hybrid power unit, aiming to challenge for victories throughout the season.
                     </div>
                     <div>
                         Lets have a deeper look into the SF23:

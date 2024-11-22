@@ -15,10 +15,10 @@ export default function Table(props) {
                         </tr>
                     </thead>
                     <tbody>
-                        {props.chasisInfo.map((value) => {
+                        {props.chasisInfo.map((value , index) => {
                             if (value.info == '') {
                                 return (
-                                    <tr class="text-lg uppercase " style={{ color: props.color }}>
+                                    <tr key={index} class="text-lg uppercase " style={{ color: props.color }}>
                                         <th scope="col" class="px-6 py-3 bg-gray-50 ">
                                         {value.title}
                                         </th>
@@ -27,7 +27,7 @@ export default function Table(props) {
                             }
                             else {
                                 return(
-                                    <tr class="border-b border-gray-200 ">
+                                    <tr key={index} class="border-b border-gray-200 ">
                                     <td scope="row" class="px-6 py-4 font-medium text-gray-900 bg-gray-50">
                                         {value.title}
                                     </td>

@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import NavBar from '../components/NavBar'
 import { knowMore } from '../../assets/knowMore'
 
-export default function page() {
+export default function Page() {
 
     const [type, setType] = useState('Click to know more')
     const [src, setSrc] = useState('/basic/b1.jpg')
@@ -35,7 +35,7 @@ export default function page() {
                     </div>
                     <div className='flex flex-col gap-4 font-F1R text-lg'>
                         <div>Welcome to the interactive F1 car exploration! Hover over different parts of the car to discover key components and their functions. Each section, from the Halo Device to the Tyres, plays a crucial role in the performance, safety, and speed of the car.</div>
-                        <div>Simply move your mouse over the labeled areas, and click it to get a detailed information about that specific part. Whether you're curious about the aerodynamics of the spoilers or the power behind the engine, this interactive guide will give you a deeper understanding of what makes an F1 car a marvel of engineering.</div>
+                        <div>Simply move your mouse over the labeled areas, and click it to get a detailed information about that specific part. Whether you&apos;re curious about the aerodynamics of the spoilers or the power behind the engine, this interactive guide will give you a deeper understanding of what makes an F1 car a marvel of engineering.</div>
                     </div>
                 </div>
                 <div className='relative' style={{ position: 'relative', width: '100%', maxWidth: '1200px', margin: '0 auto' }}>

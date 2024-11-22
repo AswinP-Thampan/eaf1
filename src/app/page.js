@@ -16,12 +16,12 @@ export default function Home() {
               {/* <span className="font-F1W ">F1</span> */}
             </div>
             <div>
-              "eaf1" is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I'll explore the key elements and insights that make F1 so thrilling for fans worldwide.
+            &apos;eaf1&apos; is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I&apos;ll explore the key elements and insights that make F1 so thrilling for fans worldwide.
             </div>
             <b className="text-site_text font-F1W text-sm">What is Formula 1?</b>
 
             <div>
-              Formula 1 (F1) is the highest class of international single-seater auto racing, governed by the Fédération Internationale de l'Automobile (FIA). It involves a series of races known as Grand Prix, held across the world on specially designed circuits or closed city streets. F1 cars are engineering marvels—lightweight, aerodynamically sophisticated, and capable of reaching speeds over 200 mph (322 km/h).
+              Formula 1 (F1) is the highest class of international single-seater auto racing, governed by the Fédération Internationale de l&apos;Automobile (FIA). It involves a series of races known as Grand Prix, held across the world on specially designed circuits or closed city streets. F1 cars are engineering marvels—lightweight, aerodynamically sophisticated, and capable of reaching speeds over 200 mph (322 km/h).
             </div>
 
 
