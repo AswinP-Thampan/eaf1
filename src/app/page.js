@@ -11,26 +11,26 @@ export default function Home() {
           {/* <div className="max-w-screen-xl px-4 py-8 mx-auto  lg:py-16 lg:px-6"> */}
           <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
             <div className="flex flex-row text-4xl">
-              <b className="text-red-600 font-F1W">eaf1 </b>
+              <b className="text-site_text font-F1W">eaf1 </b>
               &nbsp; Everything about F1&nbsp;
               {/* <span className="font-F1W ">F1</span> */}
             </div>
             <div>
               "eaf1" is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I'll explore the key elements and insights that make F1 so thrilling for fans worldwide.
             </div>
-            <b className="text-red-600 font-F1W text-sm">What is Formula 1?</b>
+            <b className="text-site_text font-F1W text-sm">What is Formula 1?</b>
 
             <div>
               Formula 1 (F1) is the highest class of international single-seater auto racing, governed by the Fédération Internationale de l'Automobile (FIA). It involves a series of races known as Grand Prix, held across the world on specially designed circuits or closed city streets. F1 cars are engineering marvels—lightweight, aerodynamically sophisticated, and capable of reaching speeds over 200 mph (322 km/h).
             </div>
 
 
-            <b className="text-red-600 font-F1W text-sm">Why is F1 Popular?</b>
+            <b className="text-site_text font-F1W text-sm">Why is F1 Popular?</b>
             <div>
               F1’s popularity comes from its unique mix of high-tech innovation, skill, and danger. It’s a global sport with a rich history, and each season is filled with intrigue, from intense rivalries and drama on and off the track to breakthrough technological advancements.
             </div>
 
-            {/* <b className="text-red-600 font-F1W text-sm">What and Who is FIA?</b>
+            {/* <b className="text-site_text font-F1W text-sm">What and Who is FIA?</b>
             <div>
               The FIA stands for the <b>Fédération Internationale de l'Automobile.</b> It's the governing body for world motorsport and is responsible for setting rules, regulations, and standards for various forms of racing, including Formula 1. Founded in 1904, the FIA oversees the organization, safety, and integrity of international motorsport events, and promotes responsible and sustainable mobility globally.
             </div>
@@ -42,10 +42,10 @@ export default function Home() {
 
 
 
-            <b className="text-red-600 font-F1W text-sm">How does one win in F1</b>
+            <b className="text-site_text font-F1W text-sm">How does one win in F1</b>
             <div>
               Winning in F1 can mean <b>winning a single race</b> or aiming for the season-long goal of winning the <b>Driver’s Championship</b> or <b>Constructor’s Championship.</b>
-              <div className="text-red-600 text-xs text-right pr-8">Learn More ...</div>
+              <div className="text-site_text text-xs text-right pr-8">Learn More ...</div>
             </div>
             <div></div>
           </main>
@@ -101,7 +101,7 @@ export default function Home() {
           </a>
         </footer>
       </div>
-      {/* <div className="bg-red-600 text-red-600 w-8 h-screen fixed -top-0 -right-0">.</div> */}
+      {/* <div className="bg-site_text text-site_text w-8 h-screen fixed -top-0 -right-0">.</div> */}
     </div>
   );
 }

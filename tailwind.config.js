@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        site_text: '#DC2626',
         mclaren_orange: "#FF8000",
         ferrari_red: "#A6051A",
         mercedes_green: "#00A19C"
