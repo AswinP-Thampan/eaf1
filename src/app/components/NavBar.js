@@ -17,13 +17,13 @@ export default function NavBar() {
       </div>
     </div>
     <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-example-collapse">
-      <div className="flex flex-col gap-3 mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5">
+      <div className="flex flex-col mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5">
         <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/">Home</Link>
         <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/f1car">Know More</Link>
         <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/mclaren">McLaren</Link>
-        <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="#">Red Bull</Link>
+        <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="#">RedBull</Link>
         <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/mercedes">Mercedes</Link>
-        <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="#">Aston Martin</Link>
+        {/* <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="#">Aston Martin</Link> */}
         <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/ferrari">Ferrari</Link>
       </div>
     </div>
