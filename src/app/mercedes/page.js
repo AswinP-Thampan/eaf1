@@ -171,7 +171,7 @@ export default function Page() {
                 <NavBar />
             </div>
             <div className='flex flex-col justify-center items-center mt-8'>
-                <b className=" text-4xl text-mercedes_green font-F1W">Mercedes</b>
+                <b className="  text-lg md:text-4xl text-mercedes_green font-F1W">Mercedes</b>
                 <ImageGallery imgArr={ImageArr} handleState={updateState} color={'#00A19C'} />
             </div>
             <div className='font-F1R flex justify-center pb-8'>

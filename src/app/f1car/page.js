@@ -29,10 +29,10 @@ export default function Page() {
 
             <div className='p-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_max-content] justify-around items-center gap-4'>
                 <div className='flex gap-4 flex-col'>
-                    <div className=" text-3xl text-black font-F1W text-site_text">
+                    <div className="  text-lg md:text-4xl text-black font-F1W text-site_text">
                         LETS BREAK IT DOWN
                     </div>
-                    <div className='flex flex-col gap-4 font-F1R text-lg'>
+                    <div className='flex flex-col gap-4 font-F1R text-[8px] xs:text-[8px] md:text-lg'>
                         <div>
                             Welcome to the interactive F1 car exploration! Hover over different parts of the car to discover key components and their functions.
                             Each section, from the Halo Device to the Tyres, plays a crucial role in the performance, safety, and speed of the car.
