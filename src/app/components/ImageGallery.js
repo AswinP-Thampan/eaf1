@@ -142,14 +142,14 @@ const ImageGallery = (imgArr) => {
     };
 
     return (
-        <div className="p-8 relative h-[fit-content] max-h-[700px] w-full">
-            <div className="flex h-full gap-4 justify-center items-center">
+        <div className="p-3 md:p-8 relative h-[fit-content] max-h-[700px] w-full">
+            <div className="flex h-full gap-1 md:gap-4 justify-center items-center">
                 <button
                     onClick={MoveLeft}
-                    className="flex items-center justify-center h-10 w-10 bg-white rounded-full shadow focus:outline-none"
+                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
                 >
                     <svg
-                        className="w-6 h-6 text-black"
+                        className="w-2 h-2 md:w-6 md:h-6 text-black"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -163,7 +163,7 @@ const ImageGallery = (imgArr) => {
                         />
                     </svg>
                 </button>
-                <div className="relative overflow-hidden w-10/12 max-h-[700px]">
+                <div className="relative overflow-hidden w-11/12 md:w-10/12max-h-[700px]">
                     <div
                         className="flex transition-transform duration-700 ease-in-out max-h-[600px]"
                         style={{
@@ -177,7 +177,7 @@ const ImageGallery = (imgArr) => {
                                 
                             >
                                 <img
-                                    className="h-auto rounded-3xl border-8 border-l-0 border-b-0"
+                                    className="h-auto rounded-3xl border-4 md:border-8 border-l-0 border-b-0"
                                     style={{ borderColor: imgArr.color }}
                                     src={item}
                                     alt={`Image ${index}`}
@@ -200,10 +200,10 @@ const ImageGallery = (imgArr) => {
                 </div> */}
                 <button
                     onClick={MoveRight}
-                    className="flex items-center justify-center h-10 w-10 bg-white rounded-full shadow focus:outline-none"
+                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
                 >
                     <svg
-                        className="w-6 h-6 text-black"
+                        className="w-2 h-2 md:w-6 md:h-6 text-black"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
