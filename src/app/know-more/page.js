@@ -27,7 +27,7 @@ export default function Page() {
                 <NavBar type={'knowMore'}/>
             </div>
 
-            <div className='p-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_max-content] justify-around items-center gap-4'>
+            <div className='p-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_70%] justify-around items-center gap-4'>
                 <div className='flex gap-4 flex-col'>
                     <div className="  text-lg md:text-4xl text-black font-F1W text-site_text">
                         LETS BREAK IT DOWN

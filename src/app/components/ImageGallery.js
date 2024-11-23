@@ -1,3 +1,111 @@
+import { useState } from 'react';
+
+const ImageGallery = (imgArr) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const MoveRight = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % imgArr.imgArr.length);
+    };
+
+    const MoveLeft = () => {
+        setCurrentIndex((prevIndex) =>
+            prevIndex === 0 ? imgArr.imgArr.length - 1 : prevIndex - 1
+        );
+    };
+
+    // const swapPics = (index) => {
+    //     const newArr = [...imgArr.imgArr];
+    //     let temp = imgArr.imgArr[0];
+    //     newArr[0] = newArr[index + 1]
+    //     newArr[index + 1] = temp
+    //     imgArr.handleState(newArr)
+    // };
+
+    return (
+        <div className="p-3 md:p-8 relative h-[fit-content] max-h-[700px] w-full">
+            <div className="flex h-full gap-1 md:gap-4 justify-center items-center">
+                <button
+                    onClick={MoveLeft}
+                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
+                >
+                    <svg
+                        className="w-2 h-2 md:w-6 md:h-6 text-black"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M15 19l-7-7 7-7"
+                        />
+                    </svg>
+                </button>
+                <div className="relative overflow-hidden w-11/12 md:w-10/12max-h-[700px]">
+                    <div
+                        className="flex transition-transform duration-700 ease-in-out max-h-[600px]"
+                        style={{
+                            transform: `translateX(-${currentIndex * 100}%)`,
+                        }}
+                    >
+                        {imgArr.imgArr.map((item, index) => (
+                            <div
+                                key={index}
+                                className="flex-shrink-0 w-full flex justify-center p-4 "
+                                
+                            >
+                                <img
+                                    className="h-auto rounded-3xl border-4 border-l-0 border-b-0 md:border-8 md:border-l-0 md:border-b-0 "
+                                    style={{ borderColor: imgArr.color }}
+                                    src={item}
+                                    alt={`Image ${index}`}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                {/* <div className="grid grid-cols-1 gap-2 h-full overflow-hidden" data-carousel="slide">
+                    {imgArr.imgArr.slice(1).map((item, index) => (
+                        <div key={index} className="duration-700 ease-in-out" data-carousel-item>
+                            <img
+                                className={`h-auto max-w-full rounded-lg transition-all duration-700 ease-in-out transform hover:scale-105 cursor-pointer`}
+                                src={item}
+                                alt={`Image ${index}`}
+                                onClick={() => swapPics(index)}
+                            />
+                        </div>
+                    ))}
+                </div> */}
+                <button
+                    onClick={MoveRight}
+                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
+                >
+                    <svg
+                        className="w-2 h-2 md:w-6 md:h-6 text-black"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M9 5l7 7-7 7"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    );
+};
+
+export default ImageGallery;
+
+
+
 // import React, { useState } from 'react'
 // import Image from 'next/image';
 // import './animation.css'
@@ -116,110 +224,3 @@
 // // </div>
 // //     )
 // }
-
-
-import { useState } from 'react';
-
-const ImageGallery = (imgArr) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    const MoveRight = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % imgArr.imgArr.length);
-    };
-
-    const MoveLeft = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? imgArr.imgArr.length - 1 : prevIndex - 1
-        );
-    };
-
-    const swapPics = (index) => {
-        const newArr = [...imgArr.imgArr];
-        let temp = imgArr.imgArr[0];
-        newArr[0] = newArr[index + 1]
-        newArr[index + 1] = temp
-        imgArr.handleState(newArr)
-    };
-
-    return (
-        <div className="p-3 md:p-8 relative h-[fit-content] max-h-[700px] w-full">
-            <div className="flex h-full gap-1 md:gap-4 justify-center items-center">
-                <button
-                    onClick={MoveLeft}
-                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
-                >
-                    <svg
-                        className="w-2 h-2 md:w-6 md:h-6 text-black"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M15 19l-7-7 7-7"
-                        />
-                    </svg>
-                </button>
-                <div className="relative overflow-hidden w-11/12 md:w-10/12max-h-[700px]">
-                    <div
-                        className="flex transition-transform duration-700 ease-in-out max-h-[600px]"
-                        style={{
-                            transform: `translateX(-${currentIndex * 100}%)`,
-                        }}
-                    >
-                        {imgArr.imgArr.map((item, index) => (
-                            <div
-                                key={index}
-                                className="flex-shrink-0 w-full flex justify-center p-4 "
-                                
-                            >
-                                <img
-                                    className="h-auto rounded-3xl border-4 md:border-8 border-l-0 border-b-0"
-                                    style={{ borderColor: imgArr.color }}
-                                    src={item}
-                                    alt={`Image ${index}`}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-                {/* <div className="grid grid-cols-1 gap-2 h-full overflow-hidden" data-carousel="slide">
-                    {imgArr.imgArr.slice(1).map((item, index) => (
-                        <div key={index} className="duration-700 ease-in-out" data-carousel-item>
-                            <img
-                                className={`h-auto max-w-full rounded-lg transition-all duration-700 ease-in-out transform hover:scale-105 cursor-pointer`}
-                                src={item}
-                                alt={`Image ${index}`}
-                                onClick={() => swapPics(index)}
-                            />
-                        </div>
-                    ))}
-                </div> */}
-                <button
-                    onClick={MoveRight}
-                    className="flex items-center justify-center h-4 w-4 md:h-10 md:w-10 bg-white rounded-full shadow focus:outline-none"
-                >
-                    <svg
-                        className="w-2 h-2 md:w-6 md:h-6 text-black"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M9 5l7 7-7 7"
-                        />
-                    </svg>
-                </button>
-            </div>
-        </div>
-    );
-};
-
-export default ImageGallery;
