@@ -56,7 +56,7 @@ export default function Home() {
                 <div class="gap-8 items-center pt-2 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6" key={index}>
                   {index % 2 !== 0 ? (<img class="hidden md:block w-full rounded-3xl shadow-2xl" src={value.src} alt="dashboard image" />) : <></>}
                   <div class="mt-4 md:mt-0 text-[8px] xs:text-[8px] sm:text-[14px]">
-                    <h2 class="mb-4 text-[12px] text-site_text font-F1W">{value.question}</h2>
+                    <h2 class="mb-4 text-[12px] md:text-2xl text-site_text font-F1W">{value.question}</h2>
                     <p class="mb-6">{value.answers}</p>
                   </div>
                   {index % 2 == 0 ? (<img class="hidden md:block w-full rounded-3xl shadow-2xl" src={value.src} alt="dashboard image" />) : <></>}
