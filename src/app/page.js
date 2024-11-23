@@ -10,12 +10,12 @@ export default function Home() {
         <div className="grid items-center justify-items-center p-8 font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-9/12">
           {/* <div className="max-w-screen-xl px-4 py-8 mx-auto  lg:py-16 lg:px-6"> */}
           <main className="flex flex-col gap-4 md:gap-8 row-start-2  sm:items-start max-w-9/12">
-            <div className="flex flex-row text-lg md:text-4xl text-wrap">
-              <b className="text-site_text font-F1W">eaf1 </b>
-              &nbsp; Everything about F1&nbsp;
+            <div className="flex flex-row text-xs sm:text-3xl md:text-4xl text-wrap">
+              <b className="text-site_text font-F1W">eaf1&nbsp;</b>
+              <p>Everything about F1&nbsp;</p>
             </div>
             <div>
-              &apos;eaf1&apos; is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I&apos;ll explore the key elements and insights that make F1 so thrilling for fans worldwide.
+            &#x201C;eaf1&#x201D; is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I&apos;ll explore the key elements and insights that make F1 so thrilling for fans worldwide.
             </div>
             <b className="text-site_text font-F1W">What is Formula 1?</b>
 
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
 
       </div>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center text-[8px] xs:text-[8px] sm:text-[14px] ">
+      <footer className="row-start-3 flex gap-3 md:gap-6 flex-wrap items-center justify-center font-F1R text-[8px] xs:text-[8px] sm:text-[14px] ">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="#"
