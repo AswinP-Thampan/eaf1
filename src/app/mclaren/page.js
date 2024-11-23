@@ -158,7 +158,7 @@ export default function Page() {
                 <b className=" text-4xl text-mclaren_orange font-F1W">McLaren</b>
                 <ImageGallery imgArr={ImageArr} handleState={updateState} color={'#FF8000'}/>
             </div>
-            <div className='font-F1R flex justify-center pb-8'>
+            <div className='font-F1R flex justify-center pb-8 text-[8px] md:text-[12px]'>
                 <div className='w-10/12'>
                     <div>
                         The McLaren MCL60 is a Formula One race car designed and built by McLaren to compete in the 2023 Formula One World Championship, driven by Lando Norris and rookie Oscar Piastri

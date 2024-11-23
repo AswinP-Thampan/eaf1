@@ -142,7 +142,7 @@ const ImageGallery = (imgArr) => {
     };
 
     return (
-        <div className="p-8 relative h-[fit-content] max-h-[700px]">
+        <div className="p-8 relative h-[fit-content] max-h-[700px] w-full">
             <div className="flex h-full gap-4 justify-center items-center">
                 <button
                     onClick={MoveLeft}

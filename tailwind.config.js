@@ -34,6 +34,9 @@ module.exports = {
           '100%': { opacity: '0', transform: 'scale(0.95)' },
         },
       },
+      screens: {
+        'xs': '480px', // Custom breakpoint for very small screens
+      },
     },
   },
   plugins: [

@@ -6,7 +6,7 @@ export default function NavBar() {
 <header className="relative flex flex-wrap md:justify-start md:flex-nowrap w-full bg-black text-sm py-3 font-F1R">
       <nav className="max-w-[85rem] w-full mx-auto px-4 md:flex md:items-center md:justify-between">
     <div className="flex items-center justify-between">
-      <Link className="flex-none text-xl text-site_text font-F1W " href="#">
+      <Link className="flex-none text-xl text-white font-F1W " href="#">
         eaf1
       </Link>
       <div className="md:hidden">
