@@ -44,11 +44,11 @@ export default function Page() {
                 </div>
                 <div className='relative w-full h-auto max-h-full-[1200px]' style={{ margin: '0 auto' }}>
                     {type !== '' &&
-                        <button onClick={() => handleGoBack()} type="button" className='bg-transparent hover:bg-opacity-50 absolute top-[7%] left-[5%] w-8 h-8 sm:w-12 sm:h-12 lg:w-14 lg:h-14 transform -translate-x-1/2 -translate-y-1/2' >
+                        <button onClick={() => handleGoBack()} type="button" className='bg-transparent hover:bg-opacity-50 absolute top-[7%] left-[5%] w-3 h-3 sm:w-12 sm:h-12 lg:w-14 lg:h-14 transform -translate-x-1/2 -translate-y-1/2' >
                             <img src='/icons/back.svg' className='w-3 h-3 md:w-7 md:h-7' />
                         </button>
                     }
-                    <img className='h-fit rounded-3xl w-full' src={src} alt="Main Image" />
+                    <img className='h-fit rounded-xl w-full' src={src} alt="Main Image" />
                     {type == '' &&
                         <div>
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[24%] left-[55%]`} onClick={() => handleButtonClick('Halo')} />

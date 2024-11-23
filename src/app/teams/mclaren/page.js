@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from 'react'
-import NavBar from '../components/NavBar'
-import ImageGallery from '../components/ImageGallery'
-import Table from '../components/Table'
+import NavBar from '../../components/NavBar'
+import ImageGallery from '../../components/ImageGallery'
+import Table from '../../components/Table'
 import { title } from 'process';
 
 export default function Page() {
