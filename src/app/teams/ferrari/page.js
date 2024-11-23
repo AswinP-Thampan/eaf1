@@ -165,7 +165,7 @@ export default function Page() {
     return (
         <div >
             <div>
-                <NavBar />
+                <NavBar type={"teams"}/>
             </div>
             <div className='flex flex-col justify-center items-center mt-8'>
                 <b className=" text-lg md:text-4xl text-ferrari_red font-F1W">Scuderia Ferrari</b>

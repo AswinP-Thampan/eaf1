@@ -24,7 +24,7 @@ export default function Page() {
     return (
         <div>
             <div>
-                <NavBar />
+                <NavBar type={'knowMore'}/>
             </div>
 
             <div className='p-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_max-content] justify-around items-center gap-4'>

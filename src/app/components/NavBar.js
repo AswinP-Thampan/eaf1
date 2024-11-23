@@ -1,12 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function NavBar() {
+export default function NavBar({type}) {
+
+  console.log(type=='home')
+
   return (
     <header className="relative flex flex-wrap md:justify-start md:flex-nowrap w-full bg-black text-[8px] md:text-sm py-3 font-F1R">
       <nav className="w-full mx-auto px-4 md:flex md:items-center md:justify-between">
         <div className="flex items-center justify-between">
-          <Link className="flex-none text-xl text-white font-F1W " href="#">
+          <Link className="flex-none text-xl text-site_text font-F1W " href="#">
             eaf1
           </Link>
           <div className="md:hidden">
@@ -17,10 +20,10 @@ export default function NavBar() {
           </div>
         </div>
         <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-example-collapse">
-          <div className="flex flex-col mt-2 md:mt-5 md:flex-row md:items-center md:justify-end md:mt-0 md:ps-5">
-            <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/">Home</Link>
-            <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/f1car">Know More</Link>
-            <Link className="md:p-4 py-2 block text-white hover:text-site_text font-semibold" href="/teams">Teams</Link>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-end mt-1 md:mt-0 md:ps-5">
+            <Link className={`md:p-4 py-2 block ${type !== 'home' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/">Home</Link>
+            <Link className={`md:p-4 py-2 block ${type !== 'knowMore' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/know-more">Know More</Link>
+            <Link className={`md:p-4 py-2 block ${type !== 'teams' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/teams">Teams</Link>
           </div>
         </div>
       </nav>

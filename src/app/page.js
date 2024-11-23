@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 export default function Home() {
   return (
     <div className="justify-around">
-      <NavBar />
+      <NavBar type={"home"}/>
       <div className="flex flex-col justify-around items-center font-F1R h-fit">
 
         <div className="grid items-center justify-items-center p-8 font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-9/12">

@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
         <div className="justify-around">
-            <NavBar />
+            <NavBar type={"teams"}/>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-8 w-full h-full ">
                 {teams.map((team, index) => (
@@ -32,7 +32,7 @@ export default function Home() {
                                     alt={team.name}
                                 />
                             </div>
-                            <div>{team.name}</div>
+                            <div className="text-center">{team.name}</div>
                         </Link>
                     </div>
                 ))}
