@@ -20,8 +20,8 @@ export default function Home() {
       src: 'https://images.ps-aws.com/c?url=https%3A%2F%2Fd3cm515ijfiu6w.cloudfront.net%2Fwp-content%2Fuploads%2F2022%2F10%2F10160207%2Ffia-flag-dutch-grand-prix-planet-f1.jpg'
     },
     {
-      question: 'How does one win in F1',
-      answers: 'Winning in F1 can mean <b>winning a single race</b> or aiming for the season-long goal of winning the <b>Driver’s Championship</b> or <b>Constructor’s Championship.</b>',
+      question: 'How does a team or player win in F1?',
+      answers: 'Winning in F1 can mean winning a single race or aiming for the season-long goal of winning the Driver’s Championship or Constructor’s Championship.',
       src: 'https://www.insidehook.com/wp-content/uploads/2022/10/ferrari.jpg'
     }
   ]
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="grid items-center justify-items-center p-8 font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-9/12">
           {/* <div className="max-w-screen-xl px-4 py-8 mx-auto  lg:py-16 lg:px-6"> */}
           <main className="flex flex-col gap-4 md:gap-8 row-start-2 items-start md:items-center max-w-9/12">
-            <div className="flex flex-row text-xs sm:text-3xl md:text-4xl text-wrap w-full px-4">
+            <div className="flex flex-row text-sm sm:text-3xl md:text-4xl text-wrap w-full px-4">
               <b className="text-site_text font-F1W">eaf1&nbsp;</b>
               <p>Everything about F1</p>
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 <div class="gap-8 items-center pt-2 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6" key={index}>
                   {index % 2 !== 0 ? (<img class="hidden md:block w-full rounded-3xl shadow-2xl" src={value.src} alt="dashboard image" />) : <></>}
                   <div class="mt-4 md:mt-0 text-[8px] xs:text-[8px] sm:text-[14px]">
-                    <h2 class="mb-4 text-[24px] text-site_text font-F1W">{value.question}</h2>
+                    <h2 class="mb-4 text-[12px] text-site_text font-F1W">{value.question}</h2>
                     <p class="mb-6">{value.answers}</p>
                   </div>
                   {index % 2 == 0 ? (<img class="hidden md:block w-full rounded-3xl shadow-2xl" src={value.src} alt="dashboard image" />) : <></>}
