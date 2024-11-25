@@ -1,24 +1,23 @@
-import Image from "next/image";
 import NavBar from "../components/NavBar";
-import Link from "next/link";
 import ImageFrame from "../components/ImageFrame";
+import info from '../../../public/icons/info.png'
 
 export default function Home() {
 
     const col1 = [
-        '/hallOfFame/2.jpg',
-        '/hallOfFame/9.jpg',
-        '/hallOfFame/6.jpg',
+        { title: "Nino Farina" , src: '/hallOfFame/2.jpg'},
+        { title: "Kimi Raikkonen" , src: '/hallOfFame/9.jpg'},
+        { title: "Nigel Mansell" , src: '/hallOfFame/6.jpg'},
     ]
     const col2 = [
-        '/hallOfFame/7.jpg',
-        '/hallOfFame/4.jpg',
-        '/hallOfFame/3.jpg',
+        { title: "Aryton Senna" , src: '/hallOfFame/7.jpg'},
+        { title: "Sebastain Vettel" , src: '/hallOfFame/4.jpg'},
+        { title: "Lewis Hamilton" , src: '/hallOfFame/3.jpg'},
     ]
     const col3 = [
-        '/hallOfFame/1.1.jpg',
-        '/hallOfFame/5.jpg',
-        '/hallOfFame/8.jpg',
+        { title: "Michael Schumacher" , src: '/hallOfFame/1.1.jpg'},
+        { title: "Fernando Alonso" , src: '/hallOfFame/5.jpg'},
+        { title: "Max Verstappen" , src: '/hallOfFame/8.jpg'},
     ]
 
     return (
@@ -26,19 +25,32 @@ export default function Home() {
             <NavBar type={"hall"} />
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10 md:m-12">
-                <div class="grid gap-4">
+                <div class="grid gap-6">
                     {col1.map((team, index) => (
-                        <div key={index}><ImageFrame src={team} /></div>
+                        <div key={index}><ImageFrame src={team.src} />
+                        
+                        <div className="flex justify-center items-center font-F1R font-sm mt-1">
+                            <img src="/icons/info.png" alt='info' className="w-3 h-3" />
+                            &emsp;{team.title}</div>
+                        </div>
                     ))}
                 </div>
-                <div class="grid gap-4">
+                <div class="grid gap-6">
                     {col2.map((team, index) => (
-                        <div key={index}><ImageFrame src={team} /></div>
+                        <div key={index}><ImageFrame src={team.src} />
+                        <div className="flex justify-center items-center font-F1R font-sm mt-1">
+                            <img src="/icons/info.png" alt='info' className="w-3 h-3" />
+                            &emsp;{team.title}</div>
+                        </div>
                     ))}
                 </div>
-                <div class="grid gap-4">
+                <div class="grid gap-6">
                     {col3.map((team, index) => (
-                        <div key={index}><ImageFrame src={team} /></div>
+                        <div key={index}><ImageFrame src={team.src} />
+                        <div className="flex justify-center items-center font-F1R font-sm mt-1">
+                            <img src="/icons/info.png" alt='info' className="w-3 h-3" />
+                            &emsp;{team.title}</div>
+                        </div>
                     ))}
                 </div>
             </div>
