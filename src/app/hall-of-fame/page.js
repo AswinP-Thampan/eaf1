@@ -25,7 +25,7 @@ export default function Home() {
         <div className="justify-around">
             <NavBar type={"hall"} />
 
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 m-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 m-10 md:m-12">
                 <div class="grid gap-4">
                     {col1.map((team, index) => (
                         <div key={index}><ImageFrame src={team} /></div>
