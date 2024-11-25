@@ -37,7 +37,7 @@ export default function Page() {
             </div>
             <div className='font-F1R flex justify-center pb-8 text-[8px] md:text-[12px]'>
                 <div className='w-10/12'>
-                    <div>The Red Bull Racing RB19 is a Formula One race car developed by the Red Bull Racing team for the 2023 Formula One World Championship. Powered by the Honda RBPTH001 power unit, the RB19 is engineered to deliver unparalleled performance, agility, and speed on the track. With Max Verstappen and Sergio Pérez behind the wheel, the car continues Red Bull's dominance in the sport, combining innovative aerodynamics, precise handling, and cutting-edge hybrid power technology. The RB19 is a testament to Red Bull Racing's commitment to excellence, pushing the boundaries of engineering and performance in Formula One.</div>
+                    <div>The Red Bull Racing RB19 is a Formula One race car developed by the Red Bull Racing team for the 2023 Formula One World Championship. Powered by the Honda RBPTH001 power unit, the RB19 is engineered to deliver unparalleled performance, agility, and speed on the track. With Max Verstappen and Sergio Pérez behind the wheel, the car continues Red Bull’s dominance in the sport, combining innovative aerodynamics, precise handling, and cutting-edge hybrid power technology. The RB19 is a testament to Red Bull Racing’s commitment to excellence, pushing the boundaries of engineering and performance in Formula One.</div>
                     <div>
                     Lets have a deeper look into the Red Bull Racing RB19:
                     </div>

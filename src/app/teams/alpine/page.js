@@ -41,7 +41,7 @@ export default function Page() {
             <div className='font-F1R flex justify-center pb-8 text-[8px] md:text-[12px]'>
                 <div className='w-10/12'>
                     <div>
-                    The Alpine A523 is the Formula One race car developed by the Alpine F1 Team for the 2023 Formula One World Championship. With a continued partnership with Renault for the power unit, the A523 focuses on further refining the team’s performance with an innovative chassis and enhanced aerodynamics. Led by drivers Esteban Ocon and Pierre Gasly, the A523 embodies Alpine's relentless pursuit of excellence, combining precision engineering and French flair. The car’s design philosophy focuses on optimizing aerodynamics, balance, and tire management, setting the stage for Alpine’s ambitions to challenge the top teams and make significant strides toward podium finishes.                    </div>
+                    The Alpine A523 is the Formula One race car developed by the Alpine F1 Team for the 2023 Formula One World Championship. With a continued partnership with Renault for the power unit, the A523 focuses on further refining the team’s performance with an innovative chassis and enhanced aerodynamics. Led by drivers Esteban Ocon and Pierre Gasly, the A523 embodies Alpine’s relentless pursuit of excellence, combining precision engineering and French flair. The car’s design philosophy focuses on optimizing aerodynamics, balance, and tire management, setting the stage for Alpine’s ambitions to challenge the top teams and make significant strides toward podium finishes.                    </div>
                     <div>
                     Lets have a deeper look into theAlpine A523:
                     </div>
