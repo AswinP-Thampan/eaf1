@@ -24,6 +24,7 @@ export default function NavBar({type}) {
             <Link className={`md:p-4 py-2 block ${type !== 'home' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/">Home</Link>
             <Link className={`md:p-4 py-2 block ${type !== 'knowMore' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/know-more">Know More</Link>
             <Link className={`md:p-4 py-2 block ${type !== 'teams' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/teams">Teams</Link>
+            <Link className={`md:p-4 py-2 block ${type !== 'hall' ? 'text-white' : 'text-site_text' } hover:text-site_text font-semibold`} href="/hall-of-fame">Hall of Fame</Link>
           </div>
         </div>
       </nav>
