@@ -1,24 +1,24 @@
 import { useState } from 'react';
 
-const ImageGallery = (imgArr) => {
+const ImageGallery = (props) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const MoveRight = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % imgArr.imgArr.length);
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % props.imgArr.length);
     };
 
     const MoveLeft = () => {
         setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? imgArr.imgArr.length - 1 : prevIndex - 1
+            prevIndex === 0 ? props.imgArr.length - 1 : prevIndex - 1
         );
     };
 
     // const swapPics = (index) => {
-    //     const newArr = [...imgArr.imgArr];
-    //     let temp = imgArr.imgArr[0];
+    //     const newArr = [...props.imgArr];
+    //     let temp = props.imgArr[0];
     //     newArr[0] = newArr[index + 1]
     //     newArr[index + 1] = temp
-    //     imgArr.handleState(newArr)
+    //     props.handleState(newArr)
     // };
 
     return (
@@ -50,7 +50,7 @@ const ImageGallery = (imgArr) => {
                             transform: `translateX(-${currentIndex * 100}%)`,
                         }}
                     >
-                        {imgArr.imgArr.map((item, index) => (
+                        {props.imgArr.map((item, index) => (
                             <div
                                 key={index}
                                 className="flex-shrink-0 w-full flex justify-center p-4 "
@@ -58,7 +58,7 @@ const ImageGallery = (imgArr) => {
                             >
                                 <img
                                     className="h-auto rounded-3xl border-4 border-l-0 border-b-0 md:border-8 md:border-l-0 md:border-b-0 "
-                                    style={{ borderColor: imgArr.color }}
+                                    style={{ borderColor: props.color }}
                                     src={item}
                                     alt={`Image ${index}`}
                                 />
@@ -67,7 +67,7 @@ const ImageGallery = (imgArr) => {
                     </div>
                 </div>
                 {/* <div className="grid grid-cols-1 gap-2 h-full overflow-hidden" data-carousel="slide">
-                    {imgArr.imgArr.slice(1).map((item, index) => (
+                    {props.imgArr.slice(1).map((item, index) => (
                         <div key={index} className="duration-700 ease-in-out" data-carousel-item>
                             <img
                                 className={`h-auto max-w-full rounded-lg transition-all duration-700 ease-in-out transform hover:scale-105 cursor-pointer`}
@@ -110,39 +110,39 @@ export default ImageGallery;
 // import Image from 'next/image';
 // import './animation.css'
 
-// export default function ImageGallery(imgArr) {
+// export default function ImageGallery(props) {
 
 //     const [fadeClass, setFadeClass] = useState('fade-in');
 
 //     const MoveRight = () => {
-//         const newArr = [...imgArr.imgArr];
+//         const newArr = [...props.imgArr];
 //         const firstElement = newArr.shift();
 //         newArr.push(firstElement);
 
 //         setFadeClass('fade-out');
 //         setTimeout(() => setFadeClass('fade-in'), 500);
-//         imgArr.handleState(newArr)
+//         props.handleState(newArr)
 //     }
 
 //     const MoveLeft = () => {
-//         const newArr = [...imgArr.imgArr];
+//         const newArr = [...props.imgArr];
 //         const lastElement = newArr.pop();
 //         newArr.unshift(lastElement);
 
 //         setFadeClass('fade-out');
 //         setTimeout(() => setFadeClass('fade-in'), 500);
-//         imgArr.handleState(newArr)
+//         props.handleState(newArr)
 //     };
 
 // const swapPics = (index) => {
-//     const newArr = [...imgArr.imgArr];
-//     let temp = imgArr.imgArr[0];
+//     const newArr = [...props.imgArr];
+//     let temp = props.imgArr[0];
 //     newArr[0] = newArr[index + 1]
 //     newArr[index + 1] = temp
 
 //     setFadeClass('fade-out');
 //     setTimeout(() => setFadeClass('fade-in'), 500);
-//     imgArr.handleState(newArr)
+//     props.handleState(newArr)
 // };
 
 //     return (
@@ -158,12 +158,12 @@ export default ImageGallery;
 //             <div className='flex justify-center'>
 //                 <img
 //                     className={`h-fit rounded-3xl border-8 border-l-0 border-b-0 transition-all duration-700 transform ${fadeClass}`} 
-//                     src={imgArr.imgArr[0]} 
+//                     src={props.imgArr[0]} 
 //                     alt="Main Image" 
 //                 />
 //             </div>
 //             <div className="grid grid-cols-1 gap-2" data-carousel="slide">
-//                 {imgArr.imgArr.slice(1).map((item, index) => (
+//                 {props.imgArr.slice(1).map((item, index) => (
 //                     <div key={index} className="duration-700 ease-in-out" data-carousel-item>
 //                         <img
 //                             className={`h-auto max-w-full rounded-lg transition-all duration-700 ease-in-out transform hover:scale-105 cursor-pointer ${fadeClass}`}

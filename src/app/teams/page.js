@@ -6,15 +6,15 @@ export default function Home() {
 
     const teams = [
         { name: "McLaren", src: "/team/McLaren.jpg", href: "/teams/mclaren" },
-        { name: "Red Bull", src: "/team/RedBull.jpg", href: "/teams" },
+        { name: "Red Bull", src: "/team/RedBull.jpg", href: "/teams/redbull" },
         { name: "Mercedes", src: "/team/Mercedes.jpg", href: "/teams/mercedes" },
-        { name: "Aston Martin", src: "/team/Aston.jpg", href: "/teams" },
+        { name: "Aston Martin", src: "/team/Aston.jpg", href: "/teams/aston-martin" },
         { name: "Scuderia Ferrari", src: "/team/Ferrari.jpg", href: "/teams/ferrari" },
-        { name: "Alpine", src: "/team/Alpine.jpg", href: "/teams" },
-        { name: "Haas", src: "/team/Haas.jpg", href: "/teams" },
-        { name: "Alpha Tauri", src: "/team/AlphaTauri.jpg", href: "/teams" },
-        { name: "Williams", src: "/team/Williams.jpg", href: "/teams" },
-        { name: "Alfa Romeo", src: "/team/Alfa.jpg", href: "/teams" },
+        { name: "Alpine", src: "/team/Alpine.jpg", href: "/teams/alpine" },
+        { name: "Haas", src: "/team/Haas.jpg", href: "/teams/haas" },
+        { name: "Alpha Tauri", src: "/team/AlphaTauri.jpg", href: "/teams/alpha-tauri" },
+        { name: "Williams", src: "/team/Williams.jpg", href: "/teams/williams" },
+        { name: "Alfa Romeo", src: "/team/Alfa.jpg", href: "/teams/alfa-romeo" },
     ]
 
     return (

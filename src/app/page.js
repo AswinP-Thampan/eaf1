@@ -15,13 +15,13 @@ export default function Home() {
               <b className="text-site_text font-F1W">eaf1&nbsp;</b>
               <p>Everything about F1</p>
             </div>
-            <div className="pt-2 px-4 mx-auto max-w-screen-xl">
+            <div className="pt-2 px-4 lg:px-6 mx-auto max-w-screen-2xl">
               &#x201C;eaf1&#x201D; is a passion project dedicated to Formula 1. As a new F1 fan myself, I found it challenging to understand the basics and discover what truly captivates people about the sport. This website is my attempt to break down those fundamentals and share some of the fascinating aspects that drew me in. Here, I&apos;ll explore the key elements and insights that make F1 so thrilling for fans worldwide.
             </div>
 
             <div>
               {FAQ.map((value, index) =>
-                <div class="gap-8 items-center pt-8 px-4 mx-auto max-w-screen-xl xl:gap-16 lg:grid lg:grid-cols-2 lg:px-6" key={index}>
+                <div class="gap-8 items-center pb-4 px-4 mx-auto max-w-screen-2xl xl:gap-16 lg:grid lg:grid-cols-2 lg:px-6 lg:pb-8" key={index}>
                   {index % 2 !== 0 ? (<div class="hidden lg:block flex justify-center items-center"><ImageFrame src={value.src} /></div>) : <></>}
                   <div class="mt-4 md:mt-0 text-[8px] xs:text-[8px] sm:text-[14px]">
                     <h2 class="mb-4 text-[12px] md:text-2xl text-site_text font-F1W">{value.question}</h2>

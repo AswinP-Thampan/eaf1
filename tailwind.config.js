@@ -14,7 +14,9 @@ module.exports = {
         site_text: '#DC2626',
         mclaren_orange: "#FF8000",
         ferrari_red: "#A6051A",
-        mercedes_green: "#00A19C"
+        mercedes_green: "#00A19C",
+        astonMartin_green: '#00665E',
+        redbull_blue: '#173084'
       },
       fontFamily: {
         F1R: ['F1-R', 'sans-serif'],
