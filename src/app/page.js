@@ -34,7 +34,7 @@ export default function Home() {
                         }
                         else if (val.type == 'array') {
                           return (
-                            <ol className="list-decimal pl-10">
+                            <ol key={index} className="list-decimal pl-10">
                               {val.content.map((list, index) =>
                                 <li key={index}>{list}</li>
                               )}
@@ -43,7 +43,7 @@ export default function Home() {
                         }
                         else if (val.type == 'points') {
                           return (
-                            <div><strong>{val.content.bold}</strong>{val.content.light}</div>
+                            <div key={index}><strong>{val.content.bold}</strong>{val.content.light}</div>
                           )
                         }
                       })}
