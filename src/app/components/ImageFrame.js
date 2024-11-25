@@ -1,5 +1,5 @@
 import React from 'react'
-import './ImageFrame.css'
+import './imageFrame.css'
 
 export default function ImageFrame({src}) {
     return (
