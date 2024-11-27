@@ -4,80 +4,57 @@ const knowMore = {
     },
     Halo: {
         src: '/basic/halo.png',
-        description: [{
-            type: 'text',
-            content: "The Halo is a mandatory safety device introduced in Formula 1 in 2018 and remains a critical component of all 2023 F1 cars. It is a protective structure made of titanium, designed to shield drivers from potential impacts and flying debris during races and crashes. The Halo is specifically engineered to enhance cockpit safety without compromising the car's performance or the driver's visibility."
-        },
-        {
-            type: 'specs',
-            content: "Key Features and Specification:"
-        },
-        {
-            type: 'array',
-            content: [
-                "Material and Construction:",
-                "The Halo is constructed from titanium, chosen for its exceptional strength-to-weight ratio.",
-                "It weighs approximately 7 kg (15.4 lbs), ensuring minimal impact on the car's overall weight distribution."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Design:",
-                "It has a three-point attachment system, mounted to the car’s monocoque (chassis) at the front and two sides.",
-                "The device forms a protective ring around the driver’s head and a central support strut in front of the cockpit.",
-                "The aerodynamic design minimizes drag and disturbance to airflow over the car."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Safety Standards:",
-                "The Halo is subjected to rigorous crash testing, including withstanding a static load of 116 kN (equivalent to the weight of a double-decker bus). ",
-                "It is designed to deflect debris, such as wheels or bodywork, that could impact the driver at high speeds."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Impact Protection:",
-                "In head-on collisions, rollovers, or impacts with barriers, the Halo prevents objects from entering the cockpit area. ",
-                "It can withstand forces up to 15 times the car's weight, providing critical protection in severe accidents."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Visibility Considerations:",
-                "While the central strut is visible to the driver, it is engineered to minimize obstruction, allowing drivers to adapt quickly. ",
-                "Teams use anti-glare coatings and carefully position the Halo to align with the driver’s line of sight."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Aerodynamics:",
-                "Teams integrate the Halo into the car’s aerodynamics, using fairings and vortex generators to reduce drag and maintain airflow efficiency. ",
-                "Each team customizes the Halo's design within the regulations to optimize performance."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Benefits:",
-                "Life-Saving Capability: The Halo has been credited with saving numerous drivers’ lives since its introduction. Notable incidents include Romain Grosjean’s fiery crash in Bahrain (2020) and Zhou Guanyu’s terrifying accident at Silverstone (2022).",
-                "Enhanced Safety for Debris: The device significantly reduces the risk of head injuries caused by flying debris, loose tires, or collisions with other cars."
-            ]
-        }, {
-            type: 'array',
-            content: [
-                "Challenges and Controversies:",
-                "Initially, the Halo faced criticism for its aesthetics and potential visibility issues.",
-                "Over time, its undeniable safety benefits have won over skeptics, and it is now widely accepted as a cornerstone of F1 safety innovations."
-            ]
-        }
-        ]
-    },
-    Tyres: { 
-        src: '/basic/tyres.png' , 
         description: [
             {
+                type: "heading",
+                content: "Halo"
+            },
+            {
                 type: 'text',
-                content: "F1 tyres are crafted from a blend of natural and synthetic rubber combined with carbon and silica compounds. Each tyre is made up of several key layers designed to provide strength, flexibility, and durability. Like inner liner which prevents air leakage to maintain tyre pressure. Carcass is strong structure that gives the tyre its shape and resilience. Belt Package is used reinforces the tyre, ensuring structural integrity and strength.Tread provides the necessary grip and wear resistance, crucial for maintaining traction under high speeds. The tyres are sized for maximum performance, with front tyres measuring 305 mm in width and 18 inches in diameter, and rear tyres at 405 mm wide and also 18 inches in diameter, providing the necessary traction and durability for high-speed racing."
+                content: "The Halo device is a groundbreaking innovation in Formula 1 that has redefined driver safety. Introduced in 2018, it is a titanium structure designed to protect the driver’s head from severe impacts, flying debris, or other dangerous incidents. While initially controversial due to its aesthetics, the Halo has proven to be a life-saving feature, solidifying its place as an essential component in modern F1 cars."
+            },
+            {
+                type: 'array',
+                content: [
+                    "Design and Functionality",
+                    "The Halo is constructed from titanium, ensuring it is both lightweight and immensely strong. Weighing approximately 7 kilograms, it can withstand forces up to 125 kN—equivalent to the weight of a double-decker bus. The device is mounted on three points around the cockpit, creating a robust barrier without compromising visibility for the driver.",
+                    "Its primary function is to deflect large objects away from the driver’s head. During crashes, the Halo absorbs and redistributes impact forces, significantly reducing the risk of severe injuries. The open design ensures minimal interference with the driver’s line of sight while maintaining unparalleled safety."
+                ]
+            },
+            {
+                type: 'array',
+                content: [
+                    "Impact on Safety and Key Incidents",
+                    "Since its introduction, the Halo has demonstrated its life-saving capabilities on numerous occasions. High-profile incidents, such as Romain Grosjean’s fiery crash at the 2020 Bahrain Grand Prix and Zhou Guanyu’s dramatic accident at the 2022 British Grand Prix, highlighted the Halo’s role in preventing fatal injuries.",
+                    "Beyond protecting drivers in accidents, the Halo has also safeguarded them from debris, such as loose wheels or fragments from other cars. Its presence provides peace of mind, allowing drivers to focus on performance, knowing their safety is prioritized."
+                ]
+            }, {
+                type: 'array',
+                content: [
+                    "Challenges and Controversies",
+                    "The Halo’s introduction faced significant resistance from fans and drivers alike, with critics citing concerns about its aesthetics and perceived interference with traditional F1 design. Many argued it detracted from the sport’s open-cockpit heritage. However, its proven safety benefits have silenced most criticisms, shifting focus toward further innovations in driver protection.",
+                    "The Halo also posed engineering challenges for teams, as integrating it into the car required redesigning the chassis to meet stringent safety standards. Despite these hurdles, its adoption has been universally accepted as a critical step forward in F1 safety."
+                ]
+            },
+            {
+                type: 'array',
+                content: [
+                    "A Testament to Progress",
+                    "The Halo has become a symbol of Formula 1’s commitment to driver safety, marking a new era in the sport. Its ability to protect drivers in life-threatening situations underscores its significance as more than just a structural component. While it initially divided opinions, the Halo has since proven itself indispensable, demonstrating that safety and innovation can coexist without compromising the spirit of Formula 1."
+                ]
+            }
+        ]
+    },
+    Tyres: {
+        src: '/basic/tyres.png',
+        description: [
+            {
+                type: "heading",
+                content: "Tyres"
+            },
+            {
+                type: 'text',
+                content: "Tyres are one of the most critical components of a Formula 1 car, acting as the sole point of contact between the car and the track. Designed to endure extreme forces and temperatures, F1 tyres are engineered for maximum performance, safety, and adaptability to varying track conditions. Supplied exclusively by Pirelli in recent seasons, these tyres play a pivotal role in race strategy, influencing speed, grip, and durability throughout a Grand Prix."
             },
             {
                 type: 'text',
@@ -85,16 +62,41 @@ const knowMore = {
             },
             {
                 type: 'array',
-                content:[ 
-                    "Tyre Compounds, Types, and Performance:",
-                    "F1 tyres are designed for specific track conditions, with slick tyres used in dry weather for maximum grip, available in a range of compounds (C0 to C5) for varying performance and wear resistance. Intermediate tyres feature a treaded pattern for light wet conditions, channeling water away to maintain grip. Wet tyres have deep grooves that prevent aquaplaning during heavy rain, ensuring stability in extreme wet conditions.", 
-                    "Operating temperatures vary for optimal performance: dry tyres function best between 80°C and 110°C, providing maximum grip when heated, while wet tyres operate at lower temperatures of around 50°C to 60°C, offering effective traction in cooler, wet conditions. To ensure tyres perform at their best, they are preheated using tyre blankets, ensuring they are within the optimal temperature range before being used on track."
+                content: [
+                    "Tyre Compounds and Types",
+                    "F1 tyres are available in different compounds, categorized from C0 (hardest) to C5 (softest), allowing teams to adapt to specific track conditions. Softer compounds provide higher grip but wear out faster, making them ideal for shorter stints or qualifying laps. Harder compounds, while less grippy, offer greater durability for longer stints. In addition to slick tyres used in dry conditions, intermediate and wet tyres are designed for rainy weather. Intermediate tyres are suited for light rain, with a tread pattern that channels water away, while wet tyres feature deeper grooves for heavy rain, preventing aquaplaning and maintaining grip in extreme conditions."
+                ]
+            },
+            {
+                type: 'array',
+                content: [
+                    "Performance and Operating Temperatures",
+                    "Tyres in Formula 1 are engineered to operate within specific temperature ranges for optimal performance. Dry weather tyres work best at temperatures between 80°C and 110°C, delivering peak grip when sufficiently heated. Wet tyres, on the other hand, are designed for cooler operating conditions, around 50°C to 60°C, ensuring stability on wet tracks. To ensure tyres perform at their best, teams use tyre blankets to preheat them before deployment, minimizing the time needed to reach optimal temperature on the track."
+                ]
+            },
+            {
+                type: 'array',
+                content: [
+                    "The Strategic Impact of Tyres",
+                    "Tyres significantly influence race strategy, with teams carefully selecting compounds and planning pit stops to balance performance and durability. The choice of tyres can determine lap times, overtaking opportunities, and overall race outcomes. Drivers must manage tyre wear throughout the race, avoiding excessive degradation that could lead to a loss of grip or even failure. Tyres also influence car setup, including suspension and aerodynamics, as teams aim to maximize tyre performance under different conditions."
+                ]
+            },
+            {
+                type: 'array',
+                content: [
+                    "A Cornerstone of F1 Performance",
+                    "Tyres are far more than just a functional component of a Formula 1 car—they are a cornerstone of its performance. From optimizing grip and managing wear to shaping race strategy and ensuring safety, tyres are integral to every aspect of the sport. Their evolution, from compound design to advanced tread patterns for wet conditions, reflects Formula 1’s commitment to pushing the boundaries of technology and performance on the world’s most challenging tracks."
                 ]
             }
-        ]},
-    SideAirIntake: { 
-        src: '/basic/side-airintake.png' , 
+        ]
+    },
+    SideAirIntake: {
+        src: '/basic/side-airintake.png',
         description: [
+            {
+                type: "heading",
+                content: "Side Air Intake"
+            },
             {
                 type: 'text',
                 content: "Side air intakes are a crucial component of the cooling and aerodynamic systems in Formula 1 cars. Positioned on the sidepods, these intakes serve to channel airflow into various parts of the car, most importantly for cooling the engine, radiators, and other key components, while also playing an important role in the car's aerodynamic efficiency."
@@ -108,12 +110,12 @@ const knowMore = {
                 ]
             },
             {
-                type: "array" ,
+                type: "array",
                 content: [
-                "Aerodynamics and Cooling Functionality",
-                "Side air intakes serve a dual purpose in Formula 1 cars: they provide essential cooling and contribute to the car's aerodynamic efficiency. Their primary function is to bring in fresh, cool air that is used to cool critical components such as the engine, radiators, and brakes. This cooling is crucial, particularly for hybrid power units, which have complex thermal management systems to prevent overheating and maintain optimal performance. Proper airflow management through the side intakes is key to ensuring that the car’s systems stay within safe temperature limits, preventing potential engine failures during the race.",
-                "In addition to their cooling role, side air intakes are also designed to optimize the car’s aerodynamics. The airflow that enters through the intakes is carefully controlled to minimize disruption to other aerodynamic components, such as the rear wing and diffuser. This fine-tuned airflow management helps maximize rear downforce and reduce drag, providing better stability at high speeds. Balancing cooling needs with aerodynamic efficiency is a crucial aspect of F1 car design, ensuring peak performance under the extreme conditions of a race."
-            ]
+                    "Aerodynamics and Cooling Functionality",
+                    "Side air intakes serve a dual purpose in Formula 1 cars: they provide essential cooling and contribute to the car's aerodynamic efficiency. Their primary function is to bring in fresh, cool air that is used to cool critical components such as the engine, radiators, and brakes. This cooling is crucial, particularly for hybrid power units, which have complex thermal management systems to prevent overheating and maintain optimal performance. Proper airflow management through the side intakes is key to ensuring that the car’s systems stay within safe temperature limits, preventing potential engine failures during the race.",
+                    "In addition to their cooling role, side air intakes are also designed to optimize the car’s aerodynamics. The airflow that enters through the intakes is carefully controlled to minimize disruption to other aerodynamic components, such as the rear wing and diffuser. This fine-tuned airflow management helps maximize rear downforce and reduce drag, providing better stability at high speeds. Balancing cooling needs with aerodynamic efficiency is a crucial aspect of F1 car design, ensuring peak performance under the extreme conditions of a race."
+                ]
             },
             {
                 type: "array",
@@ -125,12 +127,17 @@ const knowMore = {
             },
             {
                 type: 'text',
-                content:  "Side air intakes are integral to a Formula 1 car’s performance. They are designed not only to cool critical components like the engine and radiators but also to play a vital role in the car's aerodynamic efficiency. The constant innovation in their design is a testament to their importance in maximizing both the cooling and aerodynamic performance of the car. Efficient side air intakes ensure that the car can handle the extreme conditions of an F1 race, delivering optimal performance throughout the race duration."
+                content: "Side air intakes are integral to a Formula 1 car’s performance. They are designed not only to cool critical components like the engine and radiators but also to play a vital role in the car's aerodynamic efficiency. The constant innovation in their design is a testament to their importance in maximizing both the cooling and aerodynamic performance of the car. Efficient side air intakes ensure that the car can handle the extreme conditions of an F1 race, delivering optimal performance throughout the race duration."
             }
-        ] },
-    TopAirIntake: { 
-        src: '/basic/top-airintake.png' , 
+        ]
+    },
+    TopAirIntake: {
+        src: '/basic/top-airintake.png',
         description: [
+            {
+                type: "heading",
+                content: "Top Air Intake"
+            },
             {
                 type: 'text',
                 content: "Top air intakes are a critical component in the design of Formula 1 cars, serving both cooling and aerodynamic purposes. Positioned on the upper sections of the car, these intakes channel air into vital systems, such as the engine, turbochargers, and hybrid power units, which require careful thermal management. While their primary function is cooling, top air intakes also influence the car’s aerodynamic performance, contributing to stability, downforce, and overall race performance."
@@ -150,14 +157,18 @@ const knowMore = {
                 ]
             },
             {
-                type: 'text',
-                content: 
-                    "The Evolving Design and Innovation of Top Air Intakes: Top air intakes are essential to the performance of Formula 1 cars, ensuring efficient cooling while enhancing aerodynamic stability. Over time, the design of these intakes has evolved to meet the changing demands of hybrid power units, with teams refining their size, shape, and placement for optimal performance. The ongoing development of top air intakes is a testament to their crucial role in modern F1 car design, with each refinement aimed at balancing the needs for cooling and aerodynamics to achieve peak race performance. As technology advances, these intakes will continue to evolve, contributing to the ever-changing landscape of F1 car innovation."
-                
+                type: 'array',
+                content:
+                    [
+                        "The Evolving Design and Innovation of Top Air Intakes",
+                        "Top air intakes are essential to the performance of Formula 1 cars, ensuring efficient cooling while enhancing aerodynamic stability. Over time, the design of these intakes has evolved to meet the changing demands of hybrid power units, with teams refining their size, shape, and placement for optimal performance. The ongoing development of top air intakes is a testament to their crucial role in modern F1 car design, with each refinement aimed at balancing the needs for cooling and aerodynamics to achieve peak race performance. As technology advances, these intakes will continue to evolve, contributing to the ever-changing landscape of F1 car innovation."
+
+                    ]
             },
-        ] },
-    RearWing: { 
-        src: '/basic/rear-wing.png' , 
+        ]
+    },
+    RearWing: {
+        src: '/basic/rear-wing.png',
         description: [
             {
                 type: "heading",
@@ -197,11 +208,175 @@ const knowMore = {
                 type: "",
                 content: ""
             },
-        ] },
-    FrontWing: { src: '/basic/front-wing.png' , description: [''] },
-    Body: { src: '/basic/body.png' , description: [''] },
-    BrakeCoolingDuct: { src: '/basic/brake-cooling-duct.png' , description: [''] },
-    Suspension: { src: '/basic/suspension.png' , description: [''] },
+        ]
+    },
+    FrontWing: {
+        src: '/basic/front-wing.png',
+        description: [
+            {
+                type: 'heading',
+                content: 'Front Wing'
+            },
+            {
+                type: "text",
+                content: "The front wing of a Formula 1 car is a vital component that defines its aerodynamic performance and overall handling. Positioned at the car's nose, it is the first part to interact with the oncoming air, playing a critical role in directing airflow across the vehicle. Designed with extreme precision, the front wing balances downforce and drag, ensuring optimal grip, stability, and speed in various racing conditions. Its strategic design also sets the foundation for how the entire car manages airflow."
+            },
+            {
+                type: "array",
+                content: [
+                    "Aerodynamic Functionality and Design",
+                    "The primary role of the front wing is to generate downforce, pushing the car closer to the track for better grip and control, particularly in high-speed corners. Its multi-element design, consisting of adjustable flaps and intricate endplates, allows teams to fine-tune the airflow based on specific track demands and weather conditions.",
+                    "Moreover, the wing directs airflow to other critical areas of the car, such as the bargeboards, sidepods, and rear wing, ensuring these components operate efficiently. By minimizing turbulence and optimizing airflow, the front wing contributes significantly to both stability and straight-line speed, making it a cornerstone of aerodynamic performance."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Adjustability and Race Strategy",
+                    "Modern front wings are highly adjustable, providing teams with flexibility to modify their settings during pit stops or between race sessions. For instance, adjusting the angle of the wing flaps can increase downforce for tighter corners or reduce drag for higher straight-line speeds. These adjustments allow drivers to adapt to the demands of specific circuits, changing track conditions, or even overtaking strategies.",
+                    "The adaptability of the front wing also plays a crucial role in fuel efficiency and tire management, as the aerodynamic balance affects how the car uses its resources over the course of a race. This feature highlights the front wing’s significance in race-day strategy and overall car setup."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Durability and Impact Resistance",
+                    "The front wing must withstand immense forces, from high-speed air pressure to potential collisions with track barriers or rival cars. Constructed from carbon fiber, it is both lightweight and robust, capable of absorbing minor impacts without severely compromising the car's performance. However, even slight damage can disrupt airflow, leading to significant time loss during a lap.",
+                    "Teams typically carry multiple front wing configurations, ready for quick replacements during pit stops to ensure minimal disruption to a driver’s race. This dual focus on strength and replaceability underscores the importance of the front wing in maintaining consistent performance during the intense demands of an F1 race."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "The Front Wing’s Pivotal Role",
+                    "The front wing is not merely a structural component but a cornerstone of a Formula 1 car's aerodynamic strategy and overall race-day effectiveness. By generating downforce, managing airflow, and offering adjustability, it significantly influences the car's speed, handling, and adaptability during races. Its design embodies the relentless innovation of F1 engineering, showcasing how even the most intricate elements can have a monumental impact on a car’s performance and a driver’s success."
+                ]
+            }
+        ]
+    },
+    Body: {
+        src: '/basic/body.png',
+        description: [
+            {
+                type: "heading",
+                content: "Body Work"
+            },
+            {
+                type: "text",
+                content: "The bodywork of a Formula 1 car is a meticulously engineered shell that serves multiple purposes, from housing the car's mechanical components to managing aerodynamics. It is designed to balance weight, strength, and airflow efficiency, ensuring that the car delivers maximum performance on the track. Crafted from lightweight yet durable materials like carbon fiber, F1 bodywork plays a pivotal role in determining the car's speed, stability, and overall handling."
+            },
+            {
+                type: "array",
+                content: [
+                    "Cooling and Heat Management",
+                    "Apart from aerodynamics, the bodywork is integral to the car's cooling system. Openings and vents in strategic locations, such as the sidepods and rear, allow air to flow through radiators and other heat-sensitive components. These vents are designed to expel hot air efficiently, ensuring the engine, brakes, and hybrid power units operate within safe temperature limits.",
+                    "Teams must carefully balance cooling needs with aerodynamic efficiency; excessive openings can increase drag, while inadequate airflow can lead to overheating and reduced performance. This delicate balance is a key focus of F1 car design, with bodywork often adapted to suit specific track conditions."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Lightweight Construction and Safety",
+                    "The bodywork must also be lightweight to reduce the car's overall mass while maintaining structural integrity. Carbon fiber composites are the material of choice, offering high strength-to-weight ratios that withstand the stresses of high-speed racing. The bodywork is engineered to protect the driver by forming a rigid monocoque structure, which includes a survival cell capable of withstanding severe impacts.",
+                    "Additionally, crumple zones are integrated into the bodywork design to absorb energy during crashes, ensuring driver safety. These features demonstrate how F1 bodywork is not only about performance but also about adhering to stringent safety standards."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "The Multifaceted Importance of Bodywork",
+                    "The bodywork of a Formula 1 car is far more than an aesthetic covering; it is a critical component that influences the car’s aerodynamics, cooling, and safety. Designed with precision and built from advanced materials, it represents the pinnacle of engineering innovation. By seamlessly combining performance and protection, the bodywork ensures that F1 cars remain some of the fastest and safest vehicles in the world."
+                ]
+            },
+        ]
+    },
+    BrakeCoolingDuct: {
+        src: '/basic/brake-cooling-duct.png',
+        description: [
+            {
+                type: "heading",
+                content: "Brake Cooling Ducts"
+            },
+            {
+                type: "text",
+                content: "Brake cooling ducts in Formula 1 cars are crucial for maintaining optimal brake performance and preventing overheating. These components ensure that the car’s braking system remains reliable, efficient, and safe under the extreme conditions of racing. Positioned strategically near the wheels, they channel airflow directly to the brake discs and calipers, cooling them while also managing aerodynamic efficiency. Properly functioning brake ducts can make a significant difference in a car’s lap times and durability throughout a race."
+            },
+            {
+                type: "array",
+                content: [
+                    "Cooling Efficiency and Thermal Management",
+                    "The primary function of brake cooling ducts is to dissipate the immense heat generated during braking. In an F1 car, brakes can reach temperatures of up to 1,000°C during heavy deceleration. Without efficient cooling, this heat can lead to brake fade, reduced stopping power, and even catastrophic failures.",
+                    "Brake cooling ducts are designed to direct a steady stream of air to the brake assembly, particularly the discs and calipers, ensuring they operate within a safe temperature range. The airflow is carefully managed to avoid overcooling, which could result in the brakes not reaching their optimal operating temperature, reducing efficiency. This delicate balance between cooling and performance is critical in F1 engineering."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Aerodynamic Considerations",
+                    "While their primary role is cooling, brake ducts must also complement the car’s overall aerodynamic design. Engineers carefully sculpt the ducts to minimize drag and turbulence while ensuring efficient airflow to the brakes. Innovative designs often include elements like small vanes or carefully shaped intakes to channel air without disrupting the airflow to other aerodynamic components, such as the rear wing or diffuser. Teams also tailor brake duct designs for specific circuits, with larger ducts for high-braking tracks like Monaco and more compact designs for high-speed tracks like Monza."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Regulatory Compliance and Strategic Adjustments",
+                    "Brake cooling ducts are subject to strict regulations to ensure fair competition and limit excessive aerodynamic exploitation. The FIA closely monitors their dimensions, placement, and functionality to maintain a balance between cooling needs and aerodynamic advantages.",
+                    "Despite these constraints, teams continuously innovate within the rules, adjusting the size and shape of the ducts for specific race strategies or weather conditions. For instance, smaller ducts may be used in cooler weather to maintain higher brake temperatures, whereas larger ducts are employed in hotter conditions to ensure sufficient cooling."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Balancing Cooling, Performance, and Aerodynamics",
+                    "Brake cooling ducts are a perfect example of how F1 engineering merges functionality with performance optimization. By effectively managing brake temperatures and seamlessly integrating with the car’s aerodynamics, these ducts play a pivotal role in ensuring safety, efficiency, and speed. Their design reflects the ingenuity and precision that defines Formula 1, where every component, no matter how small, contributes to the success of the car and the driver on the track."
+                ]
+            }
+        ]
+    },
+    Suspension: {
+        src: '/basic/suspension.png',
+        description: [
+            {
+                type: "heading",
+                content: "Suspension"
+            },
+            {
+                type: "text",
+                content: "Suspensions in Formula 1 are not just about absorbing shocks; they are a sophisticated system designed to balance the car’s handling, stability, and performance. By managing the interaction between the tires and the track, F1 suspensions ensure maximum grip, optimal aerodynamics, and driver control. These highly advanced systems are integral to a car’s performance, especially in a sport where every fraction of a second counts."
+            },
+            {
+                type: "array",
+                content: [
+                    "Suspension Geometry and Dynamics",
+                    "F1 suspensions are meticulously engineered to maintain consistent tire contact with the track surface. The geometry, including camber, toe, and caster angles, is precisely adjusted to optimize the car’s handling characteristics.",
+                    "Suspension components, like the wishbones and pushrods or pullrods, are made from lightweight yet durable materials such as carbon fiber to reduce weight while withstanding high stresses. The setup allows the car to maintain stability through high-speed corners, sudden braking, and rapid accelerations. Engineers also fine-tune the suspension to match the demands of each circuit, adjusting stiffness and ride height to suit varying track profiles and conditions."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Integration with Aerodynamics",
+                    "In F1, the suspension system works hand-in-hand with the car’s aerodynamics. Suspensions are designed to channel airflow smoothly around the car, minimizing drag while maximizing downforce. Components are often aerodynamically shaped to reduce turbulence, enhancing the car's overall efficiency.",
+                    "Active suspension systems, although banned, previously allowed real-time adjustments to optimize aerodynamic performance. Today, passive suspension setups achieve similar effects through mechanical ingenuity, ensuring the car remains stable while extracting maximum performance from the aerodynamic package."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "Driver Comfort and Control",
+                    "Suspensions play a significant role in ensuring that the driver can maintain control over the car, even in challenging conditions. While F1 cars are inherently stiff due to their focus on performance, the suspension system still provides a measure of comfort by absorbing irregularities on the track surface.",
+                    "This balance between stiffness and compliance allows drivers to push the car to its limits without compromising safety or control. Feedback from the suspension also gives the driver crucial information about tire grip and car behavior, helping them adapt their driving style during a race."
+                ]
+            },
+            {
+                type: "array",
+                content: [
+                    "A Critical Component in the Quest for Speed",
+                    "Suspensions in Formula 1 are a testament to the sport’s technological brilliance. They are not merely a system for absorbing shocks but a finely tuned mechanism that combines mechanical efficiency with aerodynamic optimization. By ensuring tire contact, stability, and driver control, suspensions play a vital role in extracting maximum performance from the car. In a sport defined by precision and speed, the suspension system is an indispensable element in achieving success on the track."
+                ]
+            }
+        ]
+    },
 };
 
 export { knowMore };

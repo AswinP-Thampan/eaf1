@@ -37,7 +37,7 @@ export default function Page() {
             </div>
 
             <div className='w-full flex flex-col items-center' >
-            <div className='p-14 pt-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_70%] gap-4 items-center justify-items-center font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-screen-2xl'>
+            <div className='p-14 pt-8 pb-0 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_70%] gap-4 items-center justify-items-center font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-screen-2xl'>
                 <div className='flex gap-4 flex-col'>
                     <div className="  text-lg md:text-4xl text-black font-F1W text-site_text">
                         LETS BREAK IT DOWN
