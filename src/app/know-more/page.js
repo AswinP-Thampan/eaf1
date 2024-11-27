@@ -1,10 +1,19 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import NavBar from '../components/NavBar'
 import { knowMore } from '../../assets/knowMore'
+import ContentKnowMore from '../components/ContentKnowMore'
+
 
 export default function Page() {
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            // Client-only code
+        }
+    }, []);
+
 
     const [type, setType] = useState('')
     const [src, setSrc] = useState('/basic/b1.jpg')
@@ -24,15 +33,16 @@ export default function Page() {
     return (
         <div>
             <div>
-                <NavBar type={'knowMore'}/>
+                <NavBar type={'knowMore'} />
             </div>
 
-            <div className='p-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_70%] justify-around items-center gap-4'>
+            <div className='w-full flex flex-col items-center' >
+            <div className='p-14 pt-8 grid sm:grid-cols-1 xl:grid-cols-2 xl:grid-cols-[30%_70%] gap-4 items-center justify-items-center font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-screen-2xl'>
                 <div className='flex gap-4 flex-col'>
                     <div className="  text-lg md:text-4xl text-black font-F1W text-site_text">
                         LETS BREAK IT DOWN
                     </div>
-                    <div className='flex flex-col gap-4 font-F1R text-[8px] xs:text-[8px] md:text-lg'>
+                    <div className='flex flex-col gap-4'>
                         <div>
                             Welcome to the interactive F1 car exploration! Hover over different parts of the car to discover key components and their functions.
                             Each section, from the Halo Device to the Tyres, plays a crucial role in the performance, safety, and speed of the car.
@@ -48,7 +58,7 @@ export default function Page() {
                             <img src='/icons/back.svg' className='w-3 h-3 md:w-7 md:h-7' />
                         </button>
                     }
-                    <img className='h-fit rounded-xl w-full md:hidden lg:block' src={src} alt="Main Image" />
+                    <img className='h-fit rounded-xl w-full' src={src} alt="Main Image" />
                     {type == '' &&
                         <div>
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[24%] left-[55%]`} onClick={() => handleButtonClick('Halo')} />
@@ -58,11 +68,16 @@ export default function Page() {
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[52%] left-[23.5%]`} onClick={() => handleButtonClick('BrakeCoolingDuct')} />
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[52%] left-[60%]`} onClick={() => handleButtonClick('Tyres')} />
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[82%] left-[42%]`} onClick={() => handleButtonClick('FrontWing')} />
-                            <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[12%] left-[77%]`}  onClick={() => handleButtonClick('RearWing')} />
+                            <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[12%] left-[77%]`} onClick={() => handleButtonClick('RearWing')} />
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[40%] left-[76%]`} onClick={() => handleButtonClick('Body')} />
                         </div>
                     }
                 </div>
+            </div>
+
+            {knowMore[type]?.description.length > 1 &&
+                <ContentKnowMore description={knowMore[type]?.description} />
+            }
             </div>
         </div>
     )

@@ -34,7 +34,7 @@ export default function Page() {
                 <b className="  text-lg md:text-4xl text-mercedes_green font-F1W">Mercedes</b>
                 <ImageGallery imgArr={ImageArr} handleState={updateState} color={'#00A19C'} />
             </div>
-            <div className='font-F1R flex justify-center pb-8 text-[8px] md:text-[12px]'>
+            <div className='font-F1R flex justify-center pb-8 text-[8px] sm:text-[14px]'>
                 <div className='w-10/12'>
                     <div>
                     The Mercedes-AMG F1 W14 E Performance is a Formula One race car designed and developed by Mercedes-AMG Petronas Formula One Team for the 2023 Formula One World Championship. Driven by seven-time World Champion Lewis Hamilton and rising star George Russell, the W14 embodies cutting-edge technology and engineering, continuing Mercedes&apos; legacy of innovation and competition in Formula One.                    </div>

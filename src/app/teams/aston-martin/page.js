@@ -36,7 +36,7 @@ export default function Page() {
                 <b className=" text-lg md:text-4xl text-astonMartin_green font-F1W">Aston Martin</b>
                 <ImageGallery imgArr={ImageArr} handleState={updateState} color={'#00665E'} />
             </div>
-            <div className='font-F1R flex justify-center pb-8 text-[8px] md:text-[12px]'>
+            <div className='font-F1R flex justify-center pb-8 text-[8px] sm:text-[14px]'>
                 <div className='w-10/12'>
                     <div>
                     The Aston Martin AMR23 is a Formula One race car developed by the Aston Martin Aramco Cognizant Formula One Team for the 2023 Formula One World Championship. Designed with a focus on aerodynamics and power efficiency, the AMR23 is powered by a powerful Mercedes-AMG power unit and features cutting-edge technology that enhances performance and stability on the track. With drivers Fernando Alonso and Lance Stroll behind the wheel, the AMR23 marks Aston Martin’s commitment to returning to the top of Formula One. The car blends engineering precision and speed, ensuring a strong presence at every race and reaffirming Aston Martin’s ambitions in the motorsport world.                    </div>

@@ -3,8 +3,6 @@ import React from 'react'
 
 export default function NavBar({type}) {
 
-  console.log(type=='home')
-
   return (
     <header className="relative flex flex-wrap md:justify-start md:flex-nowrap w-full bg-black text-[8px] md:text-sm py-3 font-F1R">
       <nav className="w-full mx-auto px-4 md:flex md:items-center md:justify-between">

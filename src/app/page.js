@@ -9,7 +9,7 @@ export default function Home() {
     <div className="justify-around">
       <NavBar type={"home"} />
       <div className="flex flex-col justify-around items-center font-F1R h-fit">
-        <div className="grid items-center justify-items-center p-8 font-F1R border-box text-[8px] xs:text-[8px] sm:text-[14px] max-w-9/12">
+        <div className="grid items-center justify-items-center p-8 font-F1R border-box text-[8px] sm:text-[14px] max-w-9/12">
           <main className="flex flex-col gap-4 md:gap-8 row-start-2 items-start md:items-center max-w-9/12">
             <div className="flex flex-row text-sm sm:text-3xl md:text-4xl text-wrap w-full px-4">
               <b className="text-site_text font-F1W">eaf1&nbsp;</b>
