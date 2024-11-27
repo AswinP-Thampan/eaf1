@@ -7,7 +7,7 @@ export default function ContentKnowMore({ description }) {
             {description?.map((value, index) => {
                 if (value.type == 'text') {
                     return (
-                        <div key={index}>
+                        <div key={index} className='text-[8px] sm:text-[14px]'>
                             {value.content}
                         </div>
                     )
@@ -15,12 +15,12 @@ export default function ContentKnowMore({ description }) {
                 else if (value.type == 'array') {
                     let styling; 
                     if(value?.content.length > 2)
-                        styling = "list-disc pl-10"
+                        styling = "list-disc pl-10 text-[8px] sm:text-[14px]"
                     else
-                        styling = ""
+                        styling = "text-[8px] sm:text-[14px]"
                     return (
                         <div key={index}>
-                            <strong className="text-site_text">{value?.content[0]}</strong>
+                            <strong className="text-site_text text-[12px] sm:text-[18px]">{value?.content[0]}</strong>
                             <ol className={styling} >
                                 {value?.content?.filter((_, index) => index !== 0).map((value, i) =>
                                     <li key={i}>{value}</li>
@@ -29,16 +29,9 @@ export default function ContentKnowMore({ description }) {
                         </div>
                     )
                 }
-                else if (value.type == 'specs') {
-                    return (
-                        <div className="font-F1R text-site_text text-2xl mt-10" key={index}>
-                            {value.content}
-                        </div>
-                    )
-                }
                 else if (value.type == 'heading') {
                     return (
-                        <div className="font-F1W text-site_text text-2xl mt-10" key={index}>
+                        <div className="font-F1W text-lg md:text-4xl text-site_text text-2xl mt-10" key={index}>
                             {value.content}
                         </div>
                     )
