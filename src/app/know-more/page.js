@@ -48,7 +48,7 @@ export default function Page() {
                             <img src='/icons/back.svg' className='w-3 h-3 md:w-7 md:h-7' />
                         </button>
                     }
-                    <img className='h-fit rounded-xl w-auto' src={src} alt="Main Image" />
+                    <img className='h-fit rounded-xl w-full md:hidden lg:block' src={src} alt="Main Image" />
                     {type == '' &&
                         <div>
                             <button data-tooltip-target="tooltip-animation" type="button" className={`${buttonStyle} top-[24%] left-[55%]`} onClick={() => handleButtonClick('Halo')} />
