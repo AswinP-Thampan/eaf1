@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContentKnowMore({ description }) {
 
     return (
-        <div className='font-F1R flex flex-col gap-8 p-14 pt-0 max-w-screen-2xl text-[14px]'>
+        <div className='font-F1R flex flex-col gap-8 p-6 sm:p-14 pt-0 max-w-screen-2xl text-[14px]'>
             {description?.map((value, index) => {
                 if (value.type == 'text') {
                     return (
@@ -15,7 +15,7 @@ export default function ContentKnowMore({ description }) {
                 else if (value.type == 'array') {
                     let styling; 
                     if(value?.content.length > 2)
-                        styling = "list-disc pl-10 text-[8px] sm:text-[14px]"
+                        styling = "list-disc pl-5 sm:pl-10 text-[8px] sm:text-[14px]"
                     else
                         styling = "text-[8px] sm:text-[14px]"
                     return (
