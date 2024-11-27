@@ -13,10 +13,15 @@ export default function ContentKnowMore({ description }) {
                     )
                 }
                 else if (value.type == 'array') {
+                    let styling; 
+                    if(value?.content.length > 2)
+                        styling = "list-disc pl-10"
+                    else
+                        styling = ""
                     return (
                         <div key={index}>
-                            <div>{value?.content[0]}</div>
-                            <ol className="list-disc pl-10" >
+                            <strong className="text-site_text">{value?.content[0]}</strong>
+                            <ol className={styling} >
                                 {value?.content?.filter((_, index) => index !== 0).map((value, i) =>
                                     <li key={i}>{value}</li>
                                 )}
@@ -25,6 +30,13 @@ export default function ContentKnowMore({ description }) {
                     )
                 }
                 else if (value.type == 'specs') {
+                    return (
+                        <div className="font-F1R text-site_text text-2xl mt-10" key={index}>
+                            {value.content}
+                        </div>
+                    )
+                }
+                else if (value.type == 'heading') {
                     return (
                         <div className="font-F1W text-site_text text-2xl mt-10" key={index}>
                             {value.content}
