@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContentKnowMore({ description }) {
 
     return (
-        <div className='font-F1R flex flex-col gap-4 p-6 sm:p-14 pt-0 max-w-screen-2xl text-[14px]'>
+        <div className='font-F1R flex flex-col gap-4 p-6 sm:p-14 pt-0 sm:pt-0 max-w-screen-2xl text-[14px]'>
             {description?.map((value, index) => {
                 if (value.type == 'text') {
                     return (

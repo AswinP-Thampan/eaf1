@@ -1,6 +1,24 @@
 const knowMore = {
     Default: {
-        src: '/basic/b1.jpg'
+        src: '/basic/b1.jpg',
+        description: [
+            {
+                type: "text",
+                content: "How to Use This Interactive F1 Car Guide. Dive into the intricate world of Formula 1 engineering with our interactive guide! Here's how to explore the features of this high-performance machine:"
+            },
+            {
+                type: "array",
+                content: ["",
+                    "Move your mouse over the labeled parts of the car to highlight specific components. Each label corresponds to a critical part of the car.",
+                    "Curious about how a particular part works? Click on the label to reveal detailed information, including its function, design, and impact on the car's performance.",
+                    "To return to the main view, simply click the Back button located at the top left corner of the image. Each section is designed to be informative and visually engaging."
+                ]
+            },
+            {
+                type: "text",
+                content: "Whether you’re fascinated by the cutting-edge aerodynamics of the front wing, the innovative Halo safety system, or the precision engineering behind the tyres, this guide will take you behind the scenes of what makes an F1 car a true masterpiece."
+            }
+        ]
     },
     Halo: {
         src: '/basic/halo.png',
