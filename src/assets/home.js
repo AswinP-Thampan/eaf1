@@ -16,7 +16,7 @@ const FAQ = [
         { type: 'points', content: { bold: 'Drama and Rivalries:', light:` F1 is not just about racing; it's also about the drama and rivalries that unfold both on and off the track. Teams and drivers constantly vie for supremacy, leading to compelling narratives and storylines.` }},
         { type: 'points', content: { bold: 'High Stakes:', light:' The combination of speed, danger, and the potential for spectacular crashes adds an element of excitement and unpredictability to each race.' }},
       ],
-      src: 'https://cdn-ilcadkd.nitrocdn.com/TwDKCrTCDluhfJZzzxJgmwXcAXQhFyVC/assets/images/optimized/rev-b770949/rtrsports.com/wp-content/uploads/2024/07/pexels-jenda-kubes-13641535.jpg'
+      src: 'https://media.formula1.com/image/upload/t_16by9South/f_auto/q_auto/v1709392049/trackside-images/2024/F1_Grand_Prix_of_Bahrain/2053149561.jpg'
     },
     {
       question: 'What and Who is FIA?',
